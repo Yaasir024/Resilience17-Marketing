@@ -5,10 +5,11 @@ import Section4 from "../components/home/Section4.vue"
 import Section5 from "../components/home/Section5.vue"
 import Section6 from "../components/home/Section6.vue"
 import Section7 from "../components/home/Section7.vue"
+import Section8 from "../components/home/Section8.vue"
 </script>
 
 <template>
-  <main class="pb-20">
+  <main class="">
     <section class="h-screen w-full bg-rm-green"></section>
     <!-- 2 -->
     <Section2 />
@@ -17,5 +18,6 @@ import Section7 from "../components/home/Section7.vue"
     <Section5 />
     <Section6 />
     <Section7 />
+    <Section8 />
   </main>
 </template>
