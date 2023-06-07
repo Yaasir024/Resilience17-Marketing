@@ -36,12 +36,7 @@ module.exports = {
         "rm-yellow": "#F3E909",
         "rm-brown": "#E95120",
         "rm-brown-2": "#CD3E1F",
-        "rm-blue": "#0C9DE0",
-        "rm-": "",
-        "rb-green": "#38FFB2",
-        "rb-orange": "#FF7A5E",
-        "rb-gray-500": "#667085",
-        "rb-primary-900": "#2F2B43",
+        // "rm-blue": "#0C9DE0",
       },
       flex: {
         "25%": "0 0 25%",
