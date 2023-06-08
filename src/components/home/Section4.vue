@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger)
 let mm = gsap.matchMedia();
 onMounted(() => {
     mm.add("(min-width: 1024px)", () => {
-        console.log('desktop')
+        // console.log('desktop')
         ScrollTrigger.create({
             trigger: "#approach",
             start: "top top",
