@@ -1,6 +1,6 @@
 <template>
-    <section class="">
-        <div class="bg-rm-light flex flex-wrap pt-[56px] pl-[35px] md:pl-[64px] relative">
+    <section id="section-2" class="">
+        <div class="bg-rm-light flex flex-wrap pt-[56px] pl-[20px] xs:pl-[35px] md:pl-[64px] relative">
             <div class="pb-[120px] flex-full lg:flex-50%">
                 <h2 class="text-[45px] md:text-[72px] leading-[56px] md:leading-[63px] tracking-[0.01em] max-w-[640px] font-bold font-manuka italic">
                     Resilience17 helps

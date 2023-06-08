@@ -7,8 +7,8 @@ import Footer from "@/components/home/Footer.vue"
     <section>
         <div class="flex flex-wrap bg-rm-light-2">
             <div class="flex-full lg:flex-50%">
-                <div class="card px-[64px] pt-[56px] pb-[64px] border border-rm-light hover:bg-rm-green">
-                    <h2 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka">Latest news</h2>
+                <div class="card px-[50px] sm:px-[64px] pt-[40px] sm:pt-[56px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green">
+                    <h2 class="text-[50px] xs:text-[64px] leading-[60px] xs:leading-[65px] tracking-[0.02em] font-medium font-manuka">Latest news</h2>
                     <div class="arrow-container mt-[60px] flex items-center justify-start transition-all duration-300 ease-in-out">
                         <svg class="arrow" width="50" height="42" viewBox="0 0 50 42" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -18,8 +18,8 @@ import Footer from "@/components/home/Footer.vue"
 
                     </div>
                 </div>
-                <div class="card px-[64px] pt-[56px] pb-[64px] border border-rm-light hover:bg-rm-green">
-                    <h2 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka">Resources</h2>
+                <div class="card px-[50px] sm:px-[64px] pt-[40px] sm:pt-[56px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green">
+                    <h2 class="text-[50px] xs:text-[64px] leading-[60px] xs:leading-[65px] tracking-[0.02em] font-medium font-manuka">Resources</h2>
                     <div class="arrow-container mt-[60px] flex items-center justify-start transition-all duration-300 ease-in-out">
                         <svg class="arrow" width="50" height="42" viewBox="0 0 50 42" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -31,8 +31,8 @@ import Footer from "@/components/home/Footer.vue"
                 </div>
             </div>
             <div class="flex-full lg:flex-[50%]">
-                <div class="card px-[64px] pt-[200px] pb-[64px] border border-rm-light hover:bg-rm-green">
-                    <h2 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka">See open positions</h2>
+                <div class="card px-[50px] sm:px-[64px] pt-[40px] sm:pt-[200px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green">
+                    <h2 class="text-[50px] xs:text-[64px] leading-[60px] xs:leading-[65px] tracking-[0.02em] font-medium font-manuka">See open positions</h2>
                     <div class="arrow-container mt-[60px] flex items-center justify-start transition-all duration-300 ease-in-out">
                         <svg class="arrow" width="50" height="42" viewBox="0 0 50 42" fill="none"
                             xmlns="http://www.w3.org/2000/svg">

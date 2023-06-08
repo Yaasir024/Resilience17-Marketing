@@ -3,16 +3,16 @@
         <div class="flex-full lg:flex-50% pt-[56px] flex flex-col justify-between bg-rm-dark">
             <div class="px-[40px] xs:px-[54px] mb-28 lg:mb-0 ">
                 <h1
-                    class="text-[60px] md:text-[90px] 2xl:text-[104px] leading-[92px] tracking-[0.01px] font-extrabold max-w-[345px] font-manuka text-rm-light">
+                    class="text-[60px] md:text-[90px] 2xl:text-[104px] leading-[74px] md:leading-[92px] tracking-[0.01em] font-extrabold max-w-[345px] font-manuka text-rm-light">
                     Spotting an
                     R17 Founder</h1>
-                <p class="mt-[24px] text-[28px] leading-[36px] tracking-[0.01px] text-rm-light-2">What we look for to
+                <p class="mt-[24px] text-[28px] leading-[36px] tracking-[0.01em] text-rm-light-2">What we look for to
                     invest.</p>
             </div>
             <img src="@/assets/images/home/pattern-sec7.svg" alt="" class="w-full">
         </div>
         <div class="flex-full lg:flex-50%">
-            <div class="bg-rm-yellow px-[64px] pt-[80px] pb-[60px] flex flex-wrap gap-y-[60px]">
+            <div class="bg-rm-yellow px-[34px] xs:px-[42px] sm:px-[64px] pt-[80px] pb-[60px] flex flex-wrap gap-y-[60px]">
                 <div class="w-full sm:flex-50% pr-[22px]">
 
                     <div class="border-t border-rm-dark pt-[20px]">
@@ -56,11 +56,11 @@
 
                 </div>
             </div>
-            <div class="btm-card bg-rm-dark px-[40px] sm:px-[64px] pt-[56px] pb-[64px] hover:bg-rm-yellow">
+            <div class="btm-card bg-rm-dark px-[32px] xs:px-[40px] sm:px-[64px] pt-[56px] pb-[64px] hover:bg-rm-yellow">
                 <p class="small-txt text-[18px] sm:text-[20px] leading-[32px] font-medium text-rm-light-2">Ready to go from idea to unicorn and beyond?</p>
                 <div class="arr-section flex items-center justify-between border-t border-t-rm-light pt-[12px] mt-[40px]">
-                    <h3 class="big-txt text-[50px] sm:text-[64px] leading-[65px] tracking-[0.02em] text-rm-light font-manuka">Venture forward with us</h3>
-                    <svg class="arrow" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <h3 class="big-txt text-[34px] xs:text-[50px] sm:text-[64px] leading-[48px] xs:leading-[65px] tracking-[0.02em] text-rm-light font-manuka">Venture forward with us</h3>
+                    <svg class="arrow h-[34px] sm:h-[42px] w-[34px] sm:w-[42px]" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#E5E5DB" stroke="#E5E5DB"
                             stroke-width="0.6" />
                     </svg>

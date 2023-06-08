@@ -1,6 +1,12 @@
+<script setup>
+import { ref, computed } from 'vue'
+
+import { scrollTo } from '@/composables/useScrollToSection'
+</script>
+
 <template>
-    <section class="min-h-screen bg-rm-green">
-        <div class="w-full pb-[240px] relative">
+    <section id="hero" class="min-h-screen bg-rm-green relative">
+        <div class="w-full pb-[300px] relative">
             <header class="pt-[40px] px-[45px] md:px-[64px]  flex flex-col lg:flex-row justify-between items-start">
                 <div class="logo flex mb-5 lg:mb-0">
                     <img src="@/assets/logo/icon.svg" alt="" class="mr-[8px]">
@@ -44,62 +50,42 @@
                         </div>
                     </ul>
                 </nav>
-                <nav class="hidden md:block lg:hidden w-full">
-                    <ul class="flex items-center justify-between">
-                        <li class="   mr-2 flex-1">
-                            <RouterLink to="/">
-                                <div
-                                    class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-t-rm-dark w-full ">
-                                    R17 Vision</div>
-                            </RouterLink>
-                        </li>
-                        <li class="  mr-2 flex-1">
-                            <RouterLink to="/">
-                                <div
-                                    class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-t-rm-dark w-full ">
-                                    Approach</div>
-                            </RouterLink>
-                        </li>
-                        <li class="mr-2 flex-1">
-                            <RouterLink to="/">
-                                <div
-                                    class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-t-rm-dark w-full ">
-                                    Portfolio</div>
-                            </RouterLink>
-                        </li>
-                        <li class=" flex-1">
-                            <RouterLink to="/">
-                                <div
-                                    class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-r border-rm-dark w-full ">
-                                    Apply Now</div>
-                            </RouterLink>
-                        </li>
-                    </ul>
-                </nav>
             </header>
 
             <div
-                class="mt-[80px] px-[80px] xl:px-[116px] text-[150px] xl:text-[180px] 2xl:text-[240px] leading-[170px] xl:leading-[192px] tracking-[0.01em] text-center font-extrabold font-manuka italic">
+                class="mt-[70px] px-[40px] md:px-[65px] lg:px-[80px] xl:px-[116px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[180px] 2xl:text-[240px] leading-[70px] xs:leading-[100px] lg:leading-[170px] xl:leading-[192px] tracking-[0.01em] text-center font-extrabold font-manuka italic">
                 Backing Africa’s
                 Venture Forward
             </div>
             <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
-                class="h-[69px] w-[412px] absolute right-0 bottom-[235px]">
-            <img src="@/assets/images/home/hero/scroll.svg" alt="" class="absolute right-[72px] bottom-[140px]">
-            <img src="@/assets/images/home/hero/plane-right.svg" alt="" class="absolute left-[168px] bottom-[1px] z-[3]">
-            <img src="@/assets/images/home/hero/big-plane.svg" alt="" class="absolute left-0 bottom-[-15px] z-[2]">
-            <img src="@/assets/images/home/hero/plane-left.svg" alt="" class="absolute left-[1px] bottom-[175px] z-[1]">
+                class="h-[45px] lg:h-[69px] w-[300px] lg:w-[412px] absolute right-0 bottom-[180px] lg:bottom-[235px]">
+            <img src="@/assets/images/home/hero/scroll.svg" alt=""
+                class="absolute right-[72px] bottom-[140px] cursor-pointer" @click="scrollTo('section-2')">
         </div>
-        <div class="text-[24px] leading-[31px] tracing-[0.02em] font-bold uppercase bg-rm-light-2 flex z-[5]">
-            <div class="py-[14px] px-[24px]">NEWS</div>
-            <div class="marquee-container relative w-full">
-                <div class="marquee flex justify-around">
-                    <span class="">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
-                    <span class="">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+        <img src="@/assets/images/home/hero/plane-right.svg" alt="" class="absolute left-[168px] bottom-[38px] z-[3] hidden md:block">
+        <img src="@/assets/images/home/hero/big-plane.svg" alt="" class="absolute left-0 bottom-[35px] z-[2] h-[308px] w-[247px] hidden md:block">
+        <img src="@/assets/images/home/hero/plane-left.svg" alt="" class="absolute left-[1px] bottom-[240px] z-[1] hidden md:block">
+        <div
+            class="absolute bottom-0 left-0 right-0 text-[24px] leading-[31px] tracing-[0.02em] font-bold uppercase bg-rm-light-2 flex z-10">
+            <div class="py-[14px] px-[15px] sm:px-[24px] font-bold">NEWS</div>
+            <div class="marquee w-full">
+                <div class="marquee__group">
+                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+                    <span class="mx-[12px]"><svg width="18" height="12" viewBox="0 0 18 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 6L0 0H12L18 6L12 12H0L6 6Z" fill="#000609" />
+                        </svg>
+                    </span>
+                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
                 </div>
-                <div class="marquee marquee2 flex justify-around">
-                    <span class="">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
-                    <span class="">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+                <div aria-hidden="true" class="marquee__group">
+                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+                    <span class="mx-[12px]"><svg width="18" height="12" viewBox="0 0 18 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 6L0 0H12L18 6L12 12H0L6 6Z" fill="#000609" />
+                        </svg>
+                    </span>
+                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
                 </div>
             </div>
         </div>
@@ -108,32 +94,53 @@
 </template>
 
 <style scoped>
-.marquee-container {
-    height: 30px;
-    overflow: hidden;
-    line-height: 30px;
-}
-
 .marquee {
-    top: 20%;
-    left: 100%;
-    /* width: 100%; */
+    display: flex;
     overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    animation: marquee 30s linear
+    user-select: none;
+    gap: 12px;
+    mask-image: linear-gradient(var(to bottom, to right),
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 1) 20%,
+            hsl(0 0% 0% / 1) 80%,
+            hsl(0 0% 0% / 0));
 }
 
-.marquee2 {
-    animation-delay: 15s;
+.marquee__group {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+    min-width: 100%;
+    animation: scroll-x 20s linear infinite;
 }
 
-@keyframes marquee {
-    0% {
-        left: 100%;
+.marquee--vertical {
+    --mask-direction: to bottom;
+}
+
+.marquee--vertical,
+.marquee--vertical .marquee__group {
+    flex-direction: column;
+}
+
+.marquee--vertical .marquee__group {
+    animation-name: scroll-y;
+}
+
+.marquee--reverse .marquee__group {
+    animation-direction: reverse;
+    animation-delay: -3s;
+}
+
+@keyframes scroll-x {
+    from {
+        transform: translateX(0);
     }
 
-    100% {
-        left: -100%
+    to {
+        transform: translateX(calc(-100% - 12px));
     }
-}</style>
+}
+</style>

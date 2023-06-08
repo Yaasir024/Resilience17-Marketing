@@ -1,6 +1,8 @@
 <script setup>
 import { ref, computed } from 'vue'
 
+import { scrollTo } from '@/composables/useScrollToSection'
+
 const currentYear = computed(() => {
     const date = new Date();
     return date.getFullYear();
@@ -8,7 +10,7 @@ const currentYear = computed(() => {
 </script>
 
 <template>
-    <footer class="bg-rm-yellow pt-[40px] px-[45px] sm:px-[64px]">
+    <footer class="bg-rm-yellow pt-[40px] px-[30px] xs:px-[45px] sm:px-[64px]">
         <div class="w-full lg:flex justify-between items-start ">
             <img src="@/assets/logo/logo-full.svg" alt="" class="mb-12 lg:mb-0">
             <div class="w-full max-w-[980px]">
@@ -69,8 +71,8 @@ const currentYear = computed(() => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex-full mb:flex-50% mb:pl-[16px] flex justify-end">
-                        <button class="text-base leading-[21px] tracking-[-0.02em]  flex items-center">
+                    <div class="flex-full mb:flex-50% mb:pl-[16px] flex justify-end mt-8 mb:mt-0">
+                        <button class="text-base leading-[21px] tracking-[-0.02em]  flex items-center" @click="scrollTo('hero')">
                             <span class="font-bold">Back to top</span>
                             <svg class="ml-2" width="14" height="15" viewBox="0 0 14 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +88,8 @@ const currentYear = computed(() => {
         </div>
         <div class="mt-[80px] py-[12px] border-t border-rm-dark flex items-center justify-between">
             <span class="text-[14px] leading-[17px] tracking-[0.02em]">{{ currentYear }}, Resilience17</span>
-            <span class="text-[14px] leading-[17px] tracking-[0.02em]">Design, <span class="underline">Studio Mbari</span></span>
+            <span class="text-[14px] leading-[17px] tracking-[0.02em]">Design, <span class="underline">Studio
+                    Mbari</span></span>
         </div>
     </footer>
 </template>

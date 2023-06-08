@@ -60,7 +60,7 @@ const data = [
 
 <template>
     <section class="flex flex-wrap">
-        <div class="card flex-full md:flex-50% lg:flex-33.33% px-[64px] py-[40px] border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
+        <div class="card flex-full md:flex-50% lg:flex-33.33% px-[34px] xs:px-[48px] sm:px-[64px] py-[40px] border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
             v-for="item in data" :key="item.id">
             <svg class="arrow absolute top-[12px] right-[12px] opacity-0" width="24" height="24" viewBox="0 0 42 42"
                 fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,9 +68,9 @@ const data = [
                     stroke-width="0.6" />
             </svg>
             <h4 class="text-[18px] leading-[23px] tracking-[0.04em] font-bold uppercase">{{ item.tag }}</h4>
-            <h2 class="mt-[16px] text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka capitalize">{{
+            <h2 class="mt-6 sm:mt-[16px] text-[48px] sm:text-[64px] leading-[52px] sm:leading-[65px] tracking-[0.02em] font-medium font-manuka capitalize">{{
                 item.name }}</h2>
-            <p class="mt-[120px] text-[20px] leading-[32px] tracking-[0.01em]">{{ item.excerpt }}</p>
+            <p class="mt-[75px] sm:mt-[120px] text-[20px] leading-[32px] tracking-[0.01em]">{{ item.excerpt }}</p>
         </div>
     </section>
 </template>
