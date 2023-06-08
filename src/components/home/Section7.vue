@@ -1,9 +1,9 @@
 <template>
-    <section class="flex flex-wrap">
+    <section class="section flex flex-wrap">
         <div class="flex-full lg:flex-50% pt-[56px] flex flex-col justify-between bg-rm-dark">
             <div class="px-[40px] xs:px-[54px] mb-28 lg:mb-0 ">
                 <h1
-                    class="text-[60px] md:text-[90px] 2xl:text-[104px] leading-[74px] md:leading-[92px] tracking-[0.01em] font-extrabold max-w-[345px] font-manuka text-rm-light">
+                    class="text-[60px] md:text-[90px] 2xl:text-[104px] leading-[74px] md:leading-[92px] tracking-[0.01em] font-extrabold max-w-[350px] font-manuka text-rm-light">
                     Spotting an
                     R17 Founder</h1>
                 <p class="mt-[24px] text-[28px] leading-[36px] tracking-[0.01em] text-rm-light-2">What we look for to
@@ -84,5 +84,12 @@
 .btm-card:hover .arrow path {
     fill: #000609;
     stroke: #000609;
+}
+.btm-card .arrow {
+    transform-origin: top right;
+    transition: all .3s ease-in-out;
+}
+.btm-card:hover .arrow {
+    transform: scale(0.8);
 }
 </style>

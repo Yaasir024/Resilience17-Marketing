@@ -4,7 +4,7 @@ import Footer from "@/components/home/Footer.vue"
 </script>
 
 <template>
-    <section>
+    <section class="section">
         <div class="flex flex-wrap bg-rm-light-2">
             <div class="flex-full lg:flex-50%">
                 <div class="card px-[50px] sm:px-[64px] pt-[40px] sm:pt-[56px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green">
@@ -50,11 +50,6 @@ import Footer from "@/components/home/Footer.vue"
 </template>
 
 <style scoped>
-.card:hover .arrow-container {
-    justify-content: flex-end;
-}
-.card:hover .arrow path {
-    fill: #000609;
-    stroke: #000609;
-}
+/* .arrow-container */
+
 </style>

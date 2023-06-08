@@ -11,11 +11,14 @@ const currentYear = computed(() => {
 
 <template>
     <footer class="bg-rm-yellow pt-[40px] px-[30px] xs:px-[45px] sm:px-[64px]">
-        <div class="w-full lg:flex justify-between items-start ">
-            <img src="@/assets/logo/logo-full.svg" alt="" class="mb-12 lg:mb-0">
-            <div class="w-full max-w-[980px]">
+        <div class="w-full xl:flex justify-between items-start ">
+            <div class="xl:w-[360px] xl:shrink-0 mb-12 xl:mb-0">
+
+                <img src="@/assets/logo/logo-full.svg" alt="" class="">
+            </div>
+            <div class="w-full xl:pl-[64px]">
                 <div class="flex flex-wrap">
-                    <div class="flex-full md:flex-50% md:pr-[16px]">
+                    <div class="flex-full md:flex-50% md:pr-[16px] mb-8 md:mb-0">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold capitalize">where</h3>
                             <div class="mt-[8px]">

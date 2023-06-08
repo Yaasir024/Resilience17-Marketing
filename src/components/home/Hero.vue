@@ -5,7 +5,7 @@ import { scrollTo } from '@/composables/useScrollToSection'
 </script>
 
 <template>
-    <section id="hero" class="min-h-screen bg-rm-green relative">
+    <section id="hero" class="section h-screen bg-rm-green relative">
         <div class="w-full pb-[300px] relative">
             <header class="pt-[40px] px-[45px] md:px-[64px]  flex flex-col lg:flex-row justify-between items-start">
                 <div class="logo flex mb-5 lg:mb-0">
@@ -14,37 +14,45 @@ import { scrollTo } from '@/composables/useScrollToSection'
                 </div>
                 <nav class="hidden lg:block max-w-[400px]">
                     <ul class="">
-                        <div class="flex gap-x-[32px] mb-[24px]">
+                        <div class="flex gap-x-[32px] mb-[12px]">
 
                             <li class="  ">
                                 <RouterLink to="/">
                                     <div
-                                        class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-t-rm-dark w-full min-w-[185px]">
+                                        class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px]">
                                         R17 Vision</div>
                                 </RouterLink>
                             </li>
                             <li class="  ">
                                 <RouterLink to="/">
                                     <div
-                                        class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-t-rm-dark w-full min-w-[185px]">
+                                        class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px]">
                                         Approach</div>
                                 </RouterLink>
                             </li>
                         </div>
-                        <div class="flex gap-x-[32px] mb-[24px]">
+                        <div class="flex gap-x-[32px] ">
 
                             <li class="">
                                 <RouterLink to="/">
                                     <div
-                                        class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-t-rm-dark w-full min-w-[185px]">
+                                        class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px]">
                                         Portfolio</div>
                                 </RouterLink>
                             </li>
                             <li class="">
                                 <RouterLink to="/">
                                     <div
-                                        class="pt-[12px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t border-r border-rm-dark w-full min-w-[185px]">
-                                        Apply Now</div>
+                                        class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-r-2 border-rm-dark w-full min-w-[185px] flex items-center justify-between">
+                                        <span class="font-bold">Apply Now </span>
+                                        <svg class="mr-2" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3.5 0.5V2H12.9425L0.5 14.4425L1.5575 15.5L14 3.0575V12.5H15.5V0.5H3.5Z"
+                                                fill="#000609" stroke="#000609" stroke-width="0.6" />
+                                        </svg>
+
+                                    </div>
                                 </RouterLink>
                             </li>
                         </div>
@@ -53,8 +61,8 @@ import { scrollTo } from '@/composables/useScrollToSection'
             </header>
 
             <div
-                class="mt-[70px] px-[40px] md:px-[65px] lg:px-[80px] xl:px-[116px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[180px] 2xl:text-[240px] leading-[70px] xs:leading-[100px] lg:leading-[170px] xl:leading-[192px] tracking-[0.01em] text-center font-extrabold font-manuka italic">
-                Backing Africa’s
+                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] xl:px-[116px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[180px] 2xl:text-[240px] leading-[70px] xs:leading-[100px] lg:leading-[170px] xl:leading-[192px] tracking-[0.01em] text-center font-extrabold font-manuka italic">
+                Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
             </div>
             <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
@@ -62,9 +70,12 @@ import { scrollTo } from '@/composables/useScrollToSection'
             <img src="@/assets/images/home/hero/scroll.svg" alt=""
                 class="absolute right-[72px] bottom-[140px] cursor-pointer" @click="scrollTo('section-2')">
         </div>
-        <img src="@/assets/images/home/hero/plane-right.svg" alt="" class="absolute left-[168px] bottom-[38px] z-[3] hidden md:block">
-        <img src="@/assets/images/home/hero/big-plane.svg" alt="" class="absolute left-0 bottom-[35px] z-[2] h-[308px] w-[247px] hidden md:block">
-        <img src="@/assets/images/home/hero/plane-left.svg" alt="" class="absolute left-[1px] bottom-[240px] z-[1] hidden md:block">
+        <img src="@/assets/images/home/hero/plane-right.svg" alt=""
+            class="absolute left-[168px] bottom-[38px] z-[3] hidden md:block">
+        <img src="@/assets/images/home/hero/big-plane.svg" alt=""
+            class="absolute left-0 bottom-[35px] z-[2] h-[308px] w-[247px] hidden md:block">
+        <img src="@/assets/images/home/hero/plane-left.svg" alt=""
+            class="absolute left-[1px] bottom-[240px] z-[1] hidden md:block">
         <div
             class="absolute bottom-0 left-0 right-0 text-[24px] leading-[31px] tracing-[0.02em] font-bold uppercase bg-rm-light-2 flex z-10">
             <div class="py-[14px] px-[15px] sm:px-[24px] font-bold">NEWS</div>
@@ -142,5 +153,4 @@ import { scrollTo } from '@/composables/useScrollToSection'
     to {
         transform: translateX(calc(-100% - 12px));
     }
-}
-</style>
+}</style>

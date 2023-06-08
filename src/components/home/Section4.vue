@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <section id="approach" class="approach lg:flex bg-rm-light">
+    <section id="approach" class="approach  lg:flex bg-rm-light">
         <div id="left-approach"
             class="left-approach w-full lg:w-[50%]  pt-[64px] flex flex-col justify-between md:h-screen">
             <div class="px-[42px] sm:px-[56px] mb-6 md:mb-0">
@@ -93,7 +93,11 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/* .last-card:hover .arrow {
-    transform: scale(0.6);
-} */
+.last-card .arrow {
+    transform-origin: top right;
+    transition: all .3s ease-in-out;
+}
+.last-card:hover .arrow {
+    transform: scale(0.8);
+}
 </style>
