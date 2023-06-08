@@ -2,10 +2,14 @@
     <section class="">
         <div class="flex flex-wrap">
             <div class="flex-full lg:flex-50% bg-rm-dark">
-                <div class="px-[63px] pt-[24px] pb-[40px]">
-                    <h3 class="text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light">Olugbenga ‘GB’
+                <div class="bg-rm-green">
+                    <img src="@/assets/images/home/founder.png" alt="" class="">
+
+                </div>
+                <div class="px-[40px] sm:px-[63px] pt-[24px] pb-[40px] bg-rm-dark">
+                    <h3 class="text-[45px] xs:text-[50px] sm:text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light">Olugbenga ‘GB’
                         Agboola</h3>
-                    <p class="text-[24px] leading-[38px] tracking-[0.01em] mt-[12px] text-rm-light-2">
+                    <p class="text-[18px] xs:text-[24px] leading-[38px] tracking-[0.01em] mt-[12px] text-rm-light-2">
                         Founder/CEO, <span class="underline">Flutterwave</span></p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <template>
     <section class="bg-rm-dark">
         <div class="px-[64px] pt-[56px] pb-[100px] flex flex-col md:flex-row md:items-end justify-between">
-            <h2 class="text-[104px] leading-[92px] tracking-[0.01em] text-rm-light font-bold font-manuka">...at a glance</h2>
+            <h2 class="text-[60px] sm:text-[90px] md:text-[104px] leading-[92px] tracking-[0.01em] text-rm-light font-bold font-manuka">...at a glance</h2>
             <h6 class="text-[20px] leading-[22px] tracking-[0.01em] mt-4 md:mt-0 md:mb-[-4px] text-rm-light-2">And, we’re just getting started.</h6>
         </div>
         <div class="flex flex-wrap w-full">

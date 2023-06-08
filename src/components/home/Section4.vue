@@ -2,7 +2,7 @@
     <section class="flex flex-wrap bg-rm-light">
         <div class="flex-full lg:flex-50% pt-[64px] flex flex-col justify-between h-screen">
             <div class="px-[56px] ">
-                <h1 class="text-[104px] leading-[92px] tracking-[0.01em] font-extrabold font-manuka">
+                <h1 class="text-[60px] sm:text-[90px] md:text-[104px] leading-[92px] tracking-[0.01em] font-extrabold font-manuka">
                     The R17 Approach
                 </h1>
                 <h1 class="text-[28px] leading-[36px] tracking-[0.01em] font-medium mt-[24px]">

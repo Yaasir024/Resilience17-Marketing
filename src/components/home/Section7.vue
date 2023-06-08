@@ -3,7 +3,7 @@
         <div class="flex-full lg:flex-50% pt-[56px] flex flex-col justify-between bg-rm-dark">
             <div class="px-[40px] xs:px-[54px] mb-28 lg:mb-0 ">
                 <h1
-                    class="text-[90px] 2xl:text-[104px] leading-[92px] tracking-[0.01px] font-extrabold max-w-[345px] font-manuka text-rm-light">
+                    class="text-[60px] md:text-[90px] 2xl:text-[104px] leading-[92px] tracking-[0.01px] font-extrabold max-w-[345px] font-manuka text-rm-light">
                     Spotting an
                     R17 Founder</h1>
                 <p class="mt-[24px] text-[28px] leading-[36px] tracking-[0.01px] text-rm-light-2">What we look for to
