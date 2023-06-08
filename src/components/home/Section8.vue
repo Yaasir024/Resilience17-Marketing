@@ -5,8 +5,8 @@ import Footer from "@/components/home/Footer.vue"
 
 <template>
     <section>
-        <div class="flex bg-rm-light-2">
-            <div class="flex-50%">
+        <div class="flex flex-wrap bg-rm-light-2">
+            <div class="flex-full lg:flex-50%">
                 <div class="card px-[64px] pt-[56px] pb-[64px] border border-rm-light hover:bg-rm-green">
                     <h2 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka">Latest news</h2>
                     <div class="arrow-container mt-[60px] flex items-center justify-start transition-all duration-300 ease-in-out">
@@ -30,7 +30,7 @@ import Footer from "@/components/home/Footer.vue"
                     </div>
                 </div>
             </div>
-            <div class="flex-[50%]">
+            <div class="flex-full lg:flex-[50%]">
                 <div class="card px-[64px] pt-[200px] pb-[64px] border border-rm-light hover:bg-rm-green">
                     <h2 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka">See open positions</h2>
                     <div class="arrow-container mt-[60px] flex items-center justify-start transition-all duration-300 ease-in-out">

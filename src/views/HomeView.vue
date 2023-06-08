@@ -1,4 +1,5 @@
 <script setup>
+import Hero from "../components/home/Hero.vue"
 import Section2 from "../components/home/Section2.vue"
 import Section3 from "../components/home/Section3.vue"
 import Section4 from "../components/home/Section4.vue"
@@ -10,8 +11,7 @@ import Section8 from "../components/home/Section8.vue"
 
 <template>
   <main class="">
-    <section class="h-screen w-full bg-rm-green"></section>
-    <!-- 2 -->
+    <Hero />
     <Section2 />
     <Section3 />
     <Section4 />

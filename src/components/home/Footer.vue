@@ -8,12 +8,12 @@ const currentYear = computed(() => {
 </script>
 
 <template>
-    <footer class="bg-rm-yellow pt-[40px] px-[64px]">
-        <div class="w-full flex justify-between items-start">
-            <img src="@/assets/logo/logo-full.svg" alt="" class="">
+    <footer class="bg-rm-yellow pt-[40px] px-[45px] sm:px-[64px]">
+        <div class="w-full lg:flex justify-between items-start ">
+            <img src="@/assets/logo/logo-full.svg" alt="" class="mb-12 lg:mb-0">
             <div class="w-full max-w-[980px]">
-                <div class="flex">
-                    <div class="flex-50% pr-[16px]">
+                <div class="flex flex-wrap">
+                    <div class="flex-full md:flex-50% md:pr-[16px]">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold capitalize">where</h3>
                             <div class="mt-[8px]">
@@ -30,7 +30,7 @@ const currentYear = computed(() => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex-50% pl-[16px]">
+                    <div class="flex-full md:flex-50% md:pl-[16px] mb-8 md:mb-0">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold capitalize">inquiries</h3>
                             <div class="mt-[8px]">
@@ -52,8 +52,8 @@ const currentYear = computed(() => {
                         </div>
                     </div>
                 </div>
-                <div class="flex mt-[40px]">
-                    <div class="flex-50% pr-[16px]">
+                <div class="flex flex-wrap mt-[40px]">
+                    <div class="flex-full mb:flex-50% mb:pr-[16px]">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold capitalize">connect with us</h3>
                             <div class="mt-[8px] flex">
@@ -69,7 +69,7 @@ const currentYear = computed(() => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex-50% pl-[16px] flex justify-end">
+                    <div class="flex-full mb:flex-50% mb:pl-[16px] flex justify-end">
                         <button class="text-base leading-[21px] tracking-[-0.02em]  flex items-center">
                             <span class="font-bold">Back to top</span>
                             <svg class="ml-2" width="14" height="15" viewBox="0 0 14 15" fill="none"

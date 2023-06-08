@@ -1,6 +1,6 @@
 <template>
-    <section class="flex bg-rm-light">
-        <div class="flex-50% pt-[64px] flex flex-col justify-between h-screen">
+    <section class="flex flex-wrap bg-rm-light">
+        <div class="flex-full lg:flex-50% pt-[64px] flex flex-col justify-between h-screen">
             <div class="px-[56px] ">
                 <h1 class="text-[104px] leading-[92px] tracking-[0.01em] font-extrabold font-manuka">
                     The R17 Approach
@@ -11,8 +11,8 @@
             </div>
             <img src="@/assets/images/home/section-4/pattern.svg" alt="" class="w-full">
         </div>
-        <div class="flex-50%">
-            <div class="pt-[70px] px-[64px] bg-rm-dark min-h-[475px] border-b border-[#545440]">
+        <div class="flex-full lg:flex-50%">
+            <div class="pt-[56px] sm:pt-[70px] px-[40px] sm:px-[64px] bg-rm-dark min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/funding.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-green font-manuka">Funding</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -21,7 +21,7 @@
                 </p>
 
             </div>
-            <div class="pt-[64px] px-[64px] bg-rm-dark min-h-[475px] border-b border-[#545440]">
+            <div class="pt-[56px] sm:pt-[64px] px-[40px] sm:px-[64px] bg-rm-dark min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/advisory.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-yellow font-manuka">Advisory</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -30,7 +30,7 @@
                 </p>
 
             </div>
-            <div class="pt-[64px] px-[64px] bg-rm-dark min-h-[475px] border-b border-[#545440]">
+            <div class="pt-[56px] sm:pt-[64px] px-[40px] sm:px-[64px] bg-rm-dark min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/talent.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-brown font-manuka">Talent</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -39,7 +39,7 @@
                 </p>
 
             </div>
-            <div class="pt-[64px] px-[64px] bg-rm-dark min-h-[475px]">
+            <div class="pt-[56px] sm:pt-[64px] px-[40px] sm:px-[64px] bg-rm-dark min-h-[475px]">
                 <img src="@/assets/images/home/section-4/d-factory.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-blue font-manuka">d.Factory</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -48,12 +48,12 @@
                 </p>
 
             </div>
-            <div class="last-card pt-[56px] px-[64px] flex flex-col justify-between min-h-[470px] hover:bg-rm-yellow">
+            <div class="last-card pt-[56px] sm:pt-[56px] px-[40px] sm:px-[64px] flex flex-col justify-between min-h-[470px] hover:bg-rm-yellow">
                 <p class="text-[20px] leading-[32px]">
                     Ready to go from idea to unicorn and beyond?
                 </p>
                 <div class="flex items-center justify-between border-t border-t-rm-dark pt-[12px] pb-[64px]">
-                    <h3 class="text-[64px] leading-[65px] tracking-[0.02em] font-manuka">Venture forward with us</h3>
+                    <h3 class="text-[40px] sm:text-[64px] leading-[65px] tracking-[0.02em] font-manuka">Venture forward with us</h3>
                     <svg class="arrow" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
                             stroke-width="0.6" />

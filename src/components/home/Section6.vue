@@ -60,7 +60,7 @@ const data = [
 
 <template>
     <section class="flex flex-wrap">
-        <div class="card flex-33.33% px-[64px] py-[40px] border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
+        <div class="card flex-full md:flex-50% lg:flex-33.33% px-[64px] py-[40px] border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
             v-for="item in data" :key="item.id">
             <svg class="arrow absolute top-[12px] right-[12px] opacity-0" width="24" height="24" viewBox="0 0 42 42"
                 fill="none" xmlns="http://www.w3.org/2000/svg">
