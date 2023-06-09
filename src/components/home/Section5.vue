@@ -54,9 +54,12 @@
                 class="pl-0 lg:pl-[40px] text-[50px] sm:text-[80px] md:text-[104px] leading-[92px] tracking-[0.01em] font-extrabold font-manuka text-rm-green">
                 Portfolio
                 Features</h1>
-            <p
-                class="text-[18px] leading-[26px] md:leading-[29px] tracking-[0.01em] font-medium mt-4 lg:mt-0 lg:pr-[60px] text-rm-light lg:flex-33.33% text-left ">
-                Backing bold, visionary founders that strive to move Africa forward.</p>
+            <div class="mt-4 lg:mt-0 lg:flex-33.33% flex">
+                <p
+                    class="text-[18px] leading-[26px] md:leading-[29px] tracking-[0.01em] font-medium text-rm-light text-left lg:max-w-[320px]">
+                    Backing bold, visionary founders that strive to move Africa forward.</p>
+                
+            </div>
         </div>
 
 </section></template>
