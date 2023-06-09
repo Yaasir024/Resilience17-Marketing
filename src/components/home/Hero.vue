@@ -61,14 +61,14 @@ import { scrollTo } from '@/composables/useScrollToSection'
             </header>
 
             <div
-                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] xl:px-[116px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[180px] 2xl:text-[240px] leading-[70px] xs:leading-[100px] lg:leading-[170px] xl:leading-[192px] tracking-[0.01em] text-center font-extrabold font-manuka italic">
+                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] xl:px-[116px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[190px] 2xl:text-[210px] leading-[70px] xs:leading-[100px] xl:leading-[150px] 2xl:leading-[172px] tracking-[0.01em] text-center font-extrabold font-manuka italic relative">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
+                <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
+                    class="h-[45px] lg:h-[69px] w-[300px] lg:w-[412px] absolute right-0 bottom-[-20px] lg:bottom-[-27px]">
+                <img src="@/assets/images/home/hero/scroll.svg" alt=""
+                    class="absolute right-[100px] bottom-[-115px] cursor-pointer" @click="scrollTo('section-2')">
             </div>
-            <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
-                class="h-[45px] lg:h-[69px] w-[300px] lg:w-[412px] absolute right-0 bottom-[180px] lg:bottom-[235px]">
-            <img src="@/assets/images/home/hero/scroll.svg" alt=""
-                class="absolute right-[72px] bottom-[140px] cursor-pointer" @click="scrollTo('section-2')">
         </div>
         <img src="@/assets/images/home/hero/plane-right.svg" alt=""
             class="absolute left-[168px] bottom-[38px] z-[3] hidden md:block">

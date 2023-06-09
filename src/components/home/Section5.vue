@@ -17,7 +17,7 @@
                 <div class="">
                     <div
                         class="text-[50px] xs:text-[65px] sm:text-[80px] md:text-[90px] lg:text-[104px]  leading-[60px] xs:leading-[92px] tracking-[0.01em] font-semibold font-manuka relative">
-                        <svg class="absolute top-[10px] xs:top-[18px] sm:top-[1px] left-[-35px] sm:left-[-45px] lg:left-[-36px] h-[20px] w-[38px]" viewBox="0 0 49 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="absolute top-[10px] xs:top-[18px] sm:top-[6px] left-[-35px] sm:left-[-45px] lg:left-[-26px] h-[20px] w-[38px]" viewBox="0 0 49 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M23.8945 26.1992L23.4883 25.082C26.9753 17.3971 31.4102 9.28906 36.793 0.757812H48.2695C44.9857 8.44271 41.6849 16.9232 38.3672 26.1992H23.8945ZM1.24609 26.1992L0.839844 25.082C4.32682 17.3971 8.76172 9.28906 14.1445 0.757812H25.5703C22.4896 7.96875 19.2057 16.4492 15.7188 26.1992H1.24609Z"
                                 fill="#8AE051" />

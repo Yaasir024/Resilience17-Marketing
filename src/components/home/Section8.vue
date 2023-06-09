@@ -51,5 +51,16 @@ import Footer from "@/components/home/Footer.vue"
 
 <style scoped>
 /* .arrow-container */
+.arrow {
+    transition: all .2s ease-in-out;
+}
+.card:hover .arrow {
+    transform: translateX(calc(100vw - 200px));
+}
 
+@media only screen and (min-width: 1024px) {
+    .card:hover .arrow {
+        transform: translateX(calc(50vw - 200px));
+    }
+}
 </style>
