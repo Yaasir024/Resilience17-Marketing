@@ -14,7 +14,7 @@
           We know <span class="font-medium underline">firsthand</span> how lonely and difficult it gets in an unknown
           terrain with low visibility, lack of
           infrastructure, almost zero support, and limited access to funding.
-          <span class="font-semibold mt-3 inline-block">With us, you can overcome almost anything.</span> 
+          <span class="font-medium mt-3 inline-block">With us, you can overcome almost anything.</span> 
         </p>
       </div>
       <div class="flex-full lg:flex-50% flex md:hidden lg:flex items-end xs:pl-[80px]">
