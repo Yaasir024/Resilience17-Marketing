@@ -300,26 +300,26 @@
 
 @keyframes slideDownUp {
   0% {
-    transform: translateY(0);
+    transform: translateY(0) scale(0.8);
   }
 
   40% {
-    transform: translateY(40px);
+    transform: translateY(40px) scale(1);
     /* Adjust the number of pixels for the downward slide */
   }
 
   50% {
-    transform: translateY(40px);
+    transform: translateY(40px) scale(1);
     /* Pause at the bottom position */
   }
 
   90% {
-    transform: translateY(0);
+    transform: translateY(0) scale(0.8);
     /* Pause at the top position before restarting */
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateY(0) scale(0.8);
   }
 }
 @keyframes rotate-animation {
