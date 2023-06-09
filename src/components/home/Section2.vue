@@ -3,14 +3,14 @@
     <div class="bg-rm-light flex flex-wrap pt-[56px] pl-[20px] xs:pl-[35px] md:pl-[64px] relative">
       <div class="pb-[120px] flex-full lg:flex-50%">
         <h2
-          class="text-[45px] md:text-[72px] leading-[56px] md:leading-[63px] tracking-[0.01em] max-w-[580px] font-bold font-manuka italic">
+          class="text-[45px] md:text-[72px] leading-[56px] md:leading-[63px] tracking-[0.01em] max-w-[580px] font-bold font-manuka">
           Resilience17 helps <br>
           visionary African founders
           build the next generation
           of future-altering innovation
         </h2>
         <p
-          class="text-[18px] md:text-[20px] leading-[24px] md:leading-[29px] font-semibold tracking-[0.01em] max-w-[590px] mt-[24px]">
+          class="text-[18px] md:text-[20px] leading-[24px] md:leading-[29px] font-medium tracking-[0.01em] max-w-[590px] mt-[24px]">
           We know <span class="font-semibold underline">firsthand</span> how lonely and difficult it gets in an unknown
           terrain with low visibility, lack of
           infrastructure, almost zero support, and limited access to funding.
