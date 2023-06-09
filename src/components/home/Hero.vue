@@ -61,7 +61,7 @@ import { scrollTo } from '@/composables/useScrollToSection'
             </header>
 
             <div
-                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[190px] 2xl:text-[210px] leading-[70px] xs:leading-[100px] xl:leading-[140px] 2xl:leading-[162px] tracking-[0.01em] text-center font-extrabold font-manuka  relative">
+                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[190px] 2xl:text-[210px] leading-[70px] xs:leading-[100px] xl:leading-[140px] 2xl:leading-[162px] tracking-[0.01em] text-center font-[900] font-manuka  relative">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
                 <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
