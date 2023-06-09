@@ -61,7 +61,7 @@ import { scrollTo } from '@/composables/useScrollToSection'
             </header>
 
             <div
-                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[190px] 2xl:text-[210px] leading-[70px] xs:leading-[100px] xl:leading-[150px] 2xl:leading-[172px] tracking-[0.01em] text-center font-extrabold font-manuka italic relative">
+                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[190px] 2xl:text-[210px] leading-[70px] xs:leading-[100px] xl:leading-[140px] 2xl:leading-[162px] tracking-[0.01em] text-center font-extrabold font-manuka italic relative">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
                 <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
@@ -70,12 +70,16 @@ import { scrollTo } from '@/composables/useScrollToSection'
                     class="absolute right-[100px] bottom-[-115px] cursor-pointer" @click="scrollTo('section-2')">
             </div>
         </div>
+        <img src="@/assets/images/home/hero/plane-cloud-right.svg" alt=""
+            class="absolute left-[200px] bottom-[245px] z-[3] hidden md:block">
         <img src="@/assets/images/home/hero/plane-right.svg" alt=""
-            class="absolute left-[168px] bottom-[38px] z-[3] hidden md:block">
+            class="absolute left-[155px] bottom-[38px] z-[3] hidden md:block">
         <img src="@/assets/images/home/hero/big-plane.svg" alt=""
-            class="absolute left-0 bottom-[35px] z-[2] h-[308px] w-[247px] hidden md:block">
+            class="absolute left-0 bottom-[35px] z-[2] h-[300px] w-[240px] hidden md:block">
         <img src="@/assets/images/home/hero/plane-left.svg" alt=""
             class="absolute left-[1px] bottom-[240px] z-[1] hidden md:block">
+        <img src="@/assets/images/home/hero/plane-cloud-left.svg" alt=""
+            class="absolute left-[1px] bottom-[120px] z-[1] hidden md:block">
         <div
             class="absolute bottom-0 left-0 right-0 text-[24px] leading-[31px] tracing-[0.02em] font-bold uppercase bg-rm-light-2 flex z-10">
             <div class="py-[14px] px-[15px] sm:px-[24px] font-bold">NEWS</div>
