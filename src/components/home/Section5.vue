@@ -6,8 +6,8 @@
                     <img src="@/assets/images/home/founder.png" alt="" class="max-h-[600px] lg:max-h-full w-full object-cover object-top">
 
                 </div>
-                <div class="px-[30px] xs:px-[40px] sm:px-[63px] pt-[24px] pb-[40px] bg-rm-dark">
-                    <h3 class="text-[45px] xs:text-[50px] sm:text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light">Olugbenga ‘GB’
+                <div class="px-[30px] xs:px-[40px] sm:px-[64px] pt-[24px] pb-[40px] bg-rm-dark">
+                    <h3 class="text-[45px] xs:text-[50px] sm:text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light">Olugbenga <span class="font-dm-sans">‘</span>GB<span class="font-dm-sans">‘</span>
                         Agboola</h3>
                     <p class="text-[18px] xs:text-[24px] leading-[38px] tracking-[0.01em] mt-[12px] text-rm-light-2">
                         Founder/CEO, <span class="underline">Flutterwave</span></p>
@@ -38,7 +38,7 @@
                         African solutions grow and thrive.</p>
 
                 </div>
-                <div class="mt-[180px] lg:mt-0 pt-[12px] lg:h-[130px] border-t border-rm-dark pb-[120px] lg:pb-0 flex items-center justify-between">
+                <div class="mt-[180px] lg:mt-0 pt-[12px] lg:h-[130px] border-t border-rm-dark pb-[120px] lg:pb-0 flex items-start justify-between">
                     <span class="text-base leading-[28px] font-bold">Tweet this</span>
                     <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -49,9 +49,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-rm-dark flex flex-col lg:flex-row items-center justify-between py-[56px] px-[40px] lg:px-0 md:px-[64px]">
+        <div class="bg-rm-dark flex flex-col lg:flex-row items-end justify-between py-[56px] px-[40px] sm:px-[64px] lg:px-0 md:px-[64px]">
             <h1
-                class="pl-0 lg:pl-[40px] text-[50px] sm:text-[80px] md:text-[104px] leading-[92px] tracking-[0.01em] font-extrabold font-manuka text-rm-green">
+                class="pl-0 lg:pl-[64px] text-[50px] sm:text-[80px] md:text-[104px] leading-[92px] tracking-[0.01em] font-extrabold font-manuka text-rm-green">
                 Portfolio
                 Features</h1>
             <div class="mt-4 lg:mt-0 lg:flex-33.33% flex">

@@ -20,7 +20,7 @@ const currentYear = computed(() => {
                 <div class="flex flex-wrap">
                     <div class="flex-full md:flex-50% md:pr-[16px] mb-8 md:mb-0">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
-                            <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold capitalize">where</h3>
+                            <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold uppercase">where</h3>
                             <div class="mt-[8px]">
                                 <h3 class="text-[20px] leading-[29px] tracking-[0.01em] font-bold">Nigeria</h3>
                                 <p class="text-[20px] leading-[29px] tracking-[0.01em]">
@@ -37,7 +37,7 @@ const currentYear = computed(() => {
                     </div>
                     <div class="flex-full md:flex-50% md:pl-[16px] mb-8 md:mb-0">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
-                            <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold capitalize">inquiries</h3>
+                            <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold uppercase">inquiries</h3>
                             <div class="mt-[8px]">
                                 <p class="text-[20px] leading-[29px] tracking-[0.01em]">
                                     +234 (807) 763 9342
@@ -60,7 +60,7 @@ const currentYear = computed(() => {
                 <div class="flex flex-wrap mt-[40px]">
                     <div class="flex-full mb:flex-50% mb:pr-[16px]">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
-                            <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold capitalize">connect with us</h3>
+                            <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold uppercase">connect with us</h3>
                             <div class="mt-[8px] flex">
                                 <a href="#" class="mr-[20px] text-[20px] leading-[29px] tracking-[0.01em]">
                                     Twitter

@@ -57,6 +57,10 @@ import Footer from "@/components/home/Footer.vue"
 .card:hover .arrow {
     transform: translateX(calc(100vw - 200px));
 }
+.card:hover .arrow path {
+    fill: #000609;
+    stroke: #000609;
+}
 
 @media only screen and (min-width: 1024px) {
     .card:hover .arrow {
