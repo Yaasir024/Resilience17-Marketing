@@ -61,7 +61,7 @@ import { scrollTo } from '@/composables/useScrollToSection'
             </header>
 
             <div
-                class="mt-[60px] px-[40px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[58px] xs:text-[92px] md:text-[120px] lg:text-[150px] xl:text-[190px] 2xl:text-[210px] leading-[70px] xs:leading-[100px] xl:leading-[140px] 2xl:leading-[162px] tracking-[0.01em] text-center font-[900] font-manuka  relative">
+                class="mt-[55px] px-[40px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[58px] xs:text-[92px] md:text-[100px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[70px] md:leading-[90px] lg:leading-[110px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
                 <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
@@ -71,13 +71,13 @@ import { scrollTo } from '@/composables/useScrollToSection'
             </div>
         </div>
         <img src="@/assets/images/home/hero/plane-cloud-right.svg" alt=""
-            class="absolute left-[200px] bottom-[245px] z-[3] hidden md:block">
+            class="absolute left-[195px] bottom-[205px] z-[3] hidden md:block">
         <img src="@/assets/images/home/hero/plane-right.svg" alt=""
             class="absolute left-[155px] bottom-[38px] z-[3] hidden md:block">
         <img src="@/assets/images/home/hero/big-plane.svg" alt=""
-            class="absolute left-0 bottom-[35px] z-[2] h-[300px] w-[240px] hidden md:block">
+            class="absolute left-0 bottom-[35px] z-[2] h-[250px] w-[240px] hidden md:block">
         <img src="@/assets/images/home/hero/plane-left.svg" alt=""
-            class="absolute left-[1px] bottom-[240px] z-[1] hidden md:block">
+            class="absolute left-[1px] bottom-[175px] z-[1] hidden md:block">
         <img src="@/assets/images/home/hero/plane-cloud-left.svg" alt=""
             class="absolute left-[1px] bottom-[120px] z-[1] hidden md:block">
         <div
