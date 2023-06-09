@@ -6,7 +6,7 @@
           class="text-[45px] md:text-[72px] leading-[56px] md:leading-[63px] tracking-[0.01em] max-w-[580px] font-bold font-manuka">
           Resilience17 helps <br>
           visionary African founders
-          build the next generation
+          build the next generation <br>
           of future-altering innovation
         </h2>
         <p
