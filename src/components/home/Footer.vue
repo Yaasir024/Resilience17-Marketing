@@ -10,15 +10,15 @@ const currentYear = computed(() => {
 </script>
 
 <template>
-    <footer class="bg-rm-yellow pt-[40px] px-[30px] xs:px-[45px] sm:px-[64px]">
+    <footer class="bg-rm-yellow pt-[64px] xs:pt-[40px] px-[20px] xs:px-[45px] sm:px-[64px]">
         <div class="w-full xl:flex justify-between items-start ">
-            <div class="xl:w-[360px] xl:shrink-0 mb-12 xl:mb-0">
+            <div class="xl:w-[360px] xl:shrink-0 mb-12 xl:mb-0 hidden xs:block">
 
                 <img src="@/assets/logo/logo-full.svg" alt="" class="">
             </div>
             <div class="w-full xl:pl-[64px]">
                 <div class="flex flex-wrap">
-                    <div class="flex-full md:flex-50% md:pr-[16px] mb-8 md:mb-0">
+                    <div class="flex-full md:flex-50% md:pr-[16px] mb-[56px] xs:mb-8 md:mb-0">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold uppercase">where</h3>
                             <div class="mt-[8px]">
@@ -35,7 +35,7 @@ const currentYear = computed(() => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex-full md:flex-50% md:pl-[16px] mb-8 md:mb-0">
+                    <div class="flex-full md:flex-50% md:pl-[16px] mb-[62px] xs:mb-8 md:mb-0">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold uppercase">inquiries</h3>
                             <div class="mt-[8px]">
@@ -61,11 +61,11 @@ const currentYear = computed(() => {
                     <div class="flex-full mb:flex-50% mb:pr-[16px]">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold uppercase">connect with us</h3>
-                            <div class="mt-[8px] flex">
-                                <a href="#" class="mr-[20px] text-[20px] leading-[29px] tracking-[0.01em]">
+                            <div class="mt-[8px] flex items-center justify-between xs:justify-normal">
+                                <a href="#" class="xs:mr-[20px] text-[20px] leading-[29px] tracking-[0.01em]">
                                     Twitter
                                 </a>
-                                <a href="#" class="mr-[20px] text-[20px] leading-[29px] tracking-[0.01em]">
+                                <a href="#" class="xs:mr-[20px] text-[20px] leading-[29px] tracking-[0.01em]">
                                     LinkedIn
                                 </a>
                                 <a href="#" class="text-[20px] leading-[29px] tracking-[0.01em]">
@@ -74,7 +74,8 @@ const currentYear = computed(() => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex-full mb:flex-50% mb:pl-[16px] flex justify-end mt-8 mb:mt-0">
+                    <div class="flex-full mb:flex-50% mb:pl-[16px] flex justify-between xs:justify-end mt-[140px] xs:mt-8 mb:mt-0">
+                        <img src="@/assets/logo/logo-full.svg" alt="" class="">
                         <button class="text-base leading-[21px] tracking-[-0.02em]  flex items-center" @click="scrollTo('hero')">
                             <span class="font-bold">Back to top</span>
                             <svg class="ml-2" width="14" height="15" viewBox="0 0 14 15" fill="none"
@@ -89,7 +90,7 @@ const currentYear = computed(() => {
                 </div>
             </div>
         </div>
-        <div class="mt-[80px] py-[12px] border-t border-rm-dark flex items-center justify-between">
+        <div class="mt-[16px] xs:mt-[80px] py-[12px] border-t border-rm-dark flex items-center justify-between">
             <span class="text-[14px] leading-[17px] tracking-[0.02em]">{{ currentYear }}, Resilience17</span>
             <span class="text-[14px] leading-[17px] tracking-[0.02em]">Design, <span class="underline">Studio
                     Mbari</span></span>

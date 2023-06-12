@@ -1,0 +1,37 @@
+<svg width="430" height="150" viewBox="0 0 430 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_123_4409)">
+<path d="M0 30H720" stroke="#BBC2C6" stroke-width="2"/>
+<path d="M0 60H720" stroke="#BBC2C6" stroke-width="2"/>
+<path d="M0 90H720" stroke="#BBC2C6" stroke-width="2"/>
+<path d="M0 120H720" stroke="#BBC2C6" stroke-width="2"/>
+<path d="M0 150H720" stroke="#BBC2C6" stroke-width="2"/>
+<path d="M-170 215.054L400.049 -354.995" stroke="#8AE051" stroke-width="2"/>
+<path d="M-148.787 236.267L421.262 -333.782" stroke="#8AE051" stroke-width="2"/>
+<path d="M-127.574 257.48L442.475 -312.568" stroke="#8AE051" stroke-width="2"/>
+<path d="M-106.36 278.693L463.688 -291.355" stroke="#8AE051" stroke-width="2"/>
+<path d="M-85.1472 299.906L484.901 -270.142" stroke="#8AE051" stroke-width="2"/>
+<path d="M-63.934 321.12L506.115 -248.929" stroke="#8AE051" stroke-width="2"/>
+<path d="M-42.7208 342.333L527.328 -227.716" stroke="#8AE051" stroke-width="2"/>
+<path d="M-21.5076 363.546L548.541 -206.503" stroke="#8AE051" stroke-width="2"/>
+<path d="M-0.294373 384.76L569.754 -185.289" stroke="#8AE051" stroke-width="2"/>
+<path d="M20.9188 405.973L590.967 -164.076" stroke="#8AE051" stroke-width="2"/>
+<path d="M42.132 427.186L612.181 -142.863" stroke="#8AE051" stroke-width="2"/>
+<path d="M63.3452 448.399L633.394 -121.649" stroke="#8AE051" stroke-width="2"/>
+<path d="M84.5584 469.612L654.607 -100.436" stroke="#8AE051" stroke-width="2"/>
+<path d="M105.772 490.825L675.82 -79.2234" stroke="#8AE051" stroke-width="2"/>
+<path d="M126.985 512.038L697.033 -58.0105" stroke="#8AE051" stroke-width="2"/>
+<path d="M148.198 533.252L718.247 -36.7967" stroke="#8AE051" stroke-width="2"/>
+<path d="M169.411 554.465L739.46 -15.5838" stroke="#8AE051" stroke-width="2"/>
+<path d="M190.624 575.678L760.673 5.62911" stroke="#8AE051" stroke-width="2"/>
+<path d="M211.838 596.892L781.886 26.843" stroke="#8AE051" stroke-width="2"/>
+<path d="M233.051 618.104L803.099 48.0559" stroke="#8AE051" stroke-width="2"/>
+<path d="M254.264 639.317L824.313 69.2688" stroke="#8AE051" stroke-width="2"/>
+<path d="M275.477 660.531L845.526 90.4826" stroke="#8AE051" stroke-width="2"/>
+</g>
+<path d="M0 2H720V-2H0V2Z" fill="#8AE051" mask="url(#path-1-inside-1_123_4409)"/>
+<defs>
+<clipPath id="clip0_123_4409">
+<path d="M0 0H720V150H0V0Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>
