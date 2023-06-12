@@ -25,6 +25,7 @@ const toggleMobileNav = () => {
 }
 
 const scroll = (section) => {
+    document.body.classList.remove('modal-open');
     showMobileNav.value = false
     scrollTo(section)
 }

@@ -76,7 +76,12 @@ const data = [
 </template>
 
 <style scoped>
+.arrow {
+    transform-origin: top right;
+    transition: all .3s ease;
+}
 .card:hover .arrow {
     opacity: 1;
+    transform: scale(1.2);
 }
 </style>
