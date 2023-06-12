@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div
-                class="btm-card bg-rm-light xs:bg-rm-dark px-[20px] xs:px-[45px] sm:px-[64px] pt-[56px] pb-[64px] hover:bg-rm-yellow">
+                class="btm-card bg-rm-light xs:bg-rm-dark px-[20px] xs:px-[45px] sm:px-[64px] pt-[56px] pb-[64px] xs:hover:bg-rm-yellow">
                 <p class="small-txt text-[20px] leading-[32px] font-medium text-rm-dark xs:text-rm-light-2">Ready to go from
                     idea to unicorn and beyond?</p>
                 <div
@@ -78,21 +78,24 @@
 </template>
 
 <style scoped>
-.btm-card:hover .small-txt {
-    color: #000609;
-}
+@media only screen and (min-width: 600px) {
 
-.btm-card:hover .big-txt {
-    color: #000609;
-}
-
-.btm-card:hover .arr-section {
-    border-top-color: #000609;
-}
-
-.btm-card:hover .arrow path {
-    fill: #000609;
-    stroke: #000609;
+    .btm-card:hover .small-txt {
+        color: #000609;
+    }
+    
+    .btm-card:hover .big-txt {
+        color: #000609;
+    }
+    
+    .btm-card:hover .arr-section {
+        border-top-color: #000609;
+    }
+    
+    .btm-card:hover .arrow path {
+        fill: #000609;
+        stroke: #000609;
+    }
 }
 
 @media only screen and (max-width: 600px) {

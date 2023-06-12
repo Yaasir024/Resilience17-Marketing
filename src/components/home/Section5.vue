@@ -1,23 +1,23 @@
 <template>
     <section class="section">
         <div class="flex flex-wrap">
-            <div class="flex-full lg:flex-50% bg-rm-dark">
-                <div class="bg-rm-green">
-                    <img src="@/assets/images/home/founder.png" alt="" class="max-h-[600px] lg:max-h-full w-full object-cover object-top">
+            <div class="flex-full lg:flex-50% bg-rm-dark flex flex-col">
+                <div class="bg-rm-green h-full min-h-[720px] sm:min-h-fit">
+                    <img src="@/assets/images/home/founder.png" alt="" class="h-full w-full object-cover object-top">
 
                 </div>
-                <div class="px-[30px] xs:px-[40px] sm:px-[64px] pt-[24px] pb-[40px] bg-rm-dark">
-                    <h3 class="text-[45px] xs:text-[50px] sm:text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light">Olugbenga <span class="font-dm-sans">‘</span>GB<span class="font-dm-sans">‘</span>
+                <div class="px-[20px] xs:px-[45px] sm:px-[64px] pt-[24px] pb-[40px] bg-rm-dark">
+                    <h3 class="text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light">Olugbenga <span class="font-dm-sans">‘</span>GB<span class="font-dm-sans">‘</span>
                         Agboola</h3>
-                    <p class="text-[18px] xs:text-[24px] leading-[38px] tracking-[0.01em] mt-[12px] text-rm-light-2">
+                    <p class="text-[24px] leading-[38px] tracking-[0.01em] mt-[12px] text-rm-light-2">
                         Founder/CEO, <span class="underline">Flutterwave</span></p>
                 </div>
             </div>
-            <div class="flex-full lg:flex-50% flex flex-col lg:justify-between py-[48px] px-[50px] sm:px-[64px] bg-rm-light-2">
+            <div class="flex-full lg:flex-50% flex flex-col lg:justify-between py-[48px] px-[20px] xs:px-[45px] sm:px-[64px] bg-rm-light-2">
                 <div class="">
                     <div
-                        class="text-[50px] xs:text-[65px] sm:text-[80px] md:text-[90px] lg:text-[104px]  leading-[60px] xs:leading-[92px] tracking-[0.01em] font-semibold font-manuka relative">
-                        <svg class="absolute top-[10px] xs:top-[18px] sm:top-[6px] left-[-35px] sm:left-[-45px] lg:left-[-26px] h-[20px] w-[38px]" viewBox="0 0 49 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        class="text-[80px] md:text-[90px] lg:text-[104px]  leading-[70px] md:leading-[92px] tracking-[0.01em] font-semibold font-manuka relative">
+                        <svg class="absolute top-[1px] xs:top-[18px] sm:top-[6px] left-[-25px] sm:left-[-45px] lg:left-[-26px] h-[20px] w-[38px]" viewBox="0 0 49 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M23.8945 26.1992L23.4883 25.082C26.9753 17.3971 31.4102 9.28906 36.793 0.757812H48.2695C44.9857 8.44271 41.6849 16.9232 38.3672 26.1992H23.8945ZM1.24609 26.1992L0.839844 25.082C4.32682 17.3971 8.76172 9.28906 14.1445 0.757812H25.5703C22.4896 7.96875 19.2057 16.4492 15.7188 26.1992H1.24609Z"
                                 fill="#8AE051" />
@@ -25,20 +25,20 @@
                         Resilience17 is a support system
                         nurturing the way forward for Africa
                         <span class="relative">
-                            <svg class="absolute top-[10px] xs:top-[18px] sm:top-[20px] right-[-35px] sm:right-[-40px] h-[20px] w-[38px]" viewBox="0 0 49 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="absolute top-[10px] xs:top-[18px] sm:top-[20px] right-[-30px] sm:right-[-40px] h-[20px] w-[38px]" viewBox="0 0 49 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M23.8945 26.1992L23.4883 25.082C26.9753 17.3971 31.4102 9.28906 36.793 0.757812H48.2695C44.9857 8.44271 41.6849 16.9232 38.3672 26.1992H23.8945ZM1.24609 26.1992L0.839844 25.082C4.32682 17.3971 8.76172 9.28906 14.1445 0.757812H25.5703C22.4896 7.96875 19.2057 16.4492 15.7188 26.1992H1.24609Z"
                                 fill="#8AE051" />
                         </svg>
                         </span>
                     </div>
-                    <p class="text-lg xs:text-[24px] sm:text-[32px] leading-[28px] xs:leading-[42px] tracking-[0.02em] mt-[24px] max-w-[570px]">A family fund
+                    <p class="text-[24px] sm:text-[32px] leading-[35px] xs:leading-[42px] tracking-[0.02em] mt-[24px] max-w-[570px]">A family fund
                         to help
                         emerging
                         African solutions grow and thrive.</p>
 
                 </div>
-                <div class="mt-[180px] lg:mt-0 pt-[12px] lg:h-[130px] border-t border-rm-dark pb-[120px] lg:pb-0 flex items-start justify-between">
+                <div class="mt-[80px] sm:mt-[180px] lg:mt-0 pt-[12px] lg:h-[130px] border-t border-rm-dark pb-[56px] sm:pb-[120px] lg:pb-0 flex items-start justify-between">
                     <span class="text-base leading-[28px] font-bold">Tweet this</span>
                     <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -49,17 +49,21 @@
                 </div>
             </div>
         </div>
-        <div class="bg-rm-dark flex flex-col lg:flex-row items-end justify-between py-[56px] px-[40px] sm:px-[64px] lg:px-0 md:px-[64px]">
-            <h1
-                class="pl-0 lg:pl-[64px] text-[50px] sm:text-[80px] md:text-[104px] leading-[92px] tracking-[0.01em] font-extrabold font-manuka text-rm-green">
-                Portfolio
-                Features</h1>
-            <div class="mt-4 lg:mt-0 lg:flex-33.33% flex">
-                <p
-                    class="text-[18px] leading-[26px] md:leading-[29px] tracking-[0.01em] font-medium text-rm-light text-left lg:max-w-[320px]">
-                    Backing bold, visionary founders that strive to move Africa forward.</p>
-                
+        <div class="bg-rm-dark ">
+            <img src="@/assets/images/home/pattern-sec6-mobile.svg" alt="" class="mb-[64px] w-full block xs:hidden">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between py-[56px] px-[20px] xs:px-[45px] sm:px-[64px] lg:px-0 md:px-[64px]">
+                <h1
+                    class="pl-0 lg:pl-[64px] text-[96px] md:text-[104px] leading-[84px] md:leading-[92px] tracking-[0.01em] font-extrabold font-manuka text-rm-green">
+                    Portfolio
+                    Features</h1>
+                <div class="mt-[24px] lg:mt-0 lg:flex-33.33% lg:flex">
+                    <p
+                        class="text-[18px] leading-[29px] tracking-[0.01em] font-medium text-rm-light text-left max-w-[300px] sm:max-w-full lg:max-w-[320px]">
+                        Backing bold, visionary founders that strive to move Africa forward.</p>
+                    
+                </div>
             </div>
+
         </div>
 
 </section></template>
