@@ -1,23 +1,23 @@
 <template>
   <section id="section-2" class="section">
-    <div class="bg-rm-light flex flex-wrap pt-[56px] pl-[20px] xs:pl-[35px] md:pl-[64px] relative">
-      <div class="pb-[120px] flex-full lg:flex-50%">
+    <div class="bg-rm-light flex flex-wrap pt-[56px] pl-[20px] xs:pl-[45px] md:pl-[64px] relative">
+      <div class="pb-[120px] flex-full lg:flex-50% pr-[20px] xs:pr-[45px] md:pr-[64px]">
         <h2
-          class="text-[45px] md:text-[72px] leading-[56px] md:leading-[63px] tracking-[0.01em] max-w-[580px] font-bold font-manuka">
+          class="text-[68px] md:text-[72px] leading-[63px] tracking-[0.02em] xs:tracking-[0.01em] max-w-[400px] xs:max-w-[580px] font-extrabold font-manuka ">
           Resilience17 helps <br>
           visionary African founders
           build the next generation <br>
           of future-altering innovation
         </h2>
         <p
-          class="text-[18px] md:text-[20px] leading-[24px] md:leading-[29px] font-medium tracking-[0.01em] max-w-[590px] mt-[24px]">
+          class="text-[20px] leading-[29px] xs:font-medium tracking-[0.01em] max-w-[590px] mt-[24px]">
           We know <span class="font-medium underline">firsthand</span> how lonely and difficult it gets in an unknown
           terrain with low visibility, lack of
           infrastructure, almost zero support, and limited access to funding.
           <span class="font-medium mt-3 inline-block">With us, you can overcome almost anything.</span> 
         </p>
       </div>
-      <div class="flex-full lg:flex-50% flex md:hidden lg:flex items-end xs:pl-[80px]">
+      <div class="flex-full lg:flex-50% flex md:hidden lg:flex xs:items-end xs:pl-[80px] pr-[100px] xs:pr-0 ">
         <div class="relative">
 
           <div class="slide pb-[30px] z-[2] relative">
@@ -267,7 +267,7 @@
       <img src="@/assets/images/home/section-2/btm-left.svg" alt="" class="absolute left-0 bottom-0">
       <img src="@/assets/images/home/section-2/btm-right.svg" alt="" class="absolute right-0 bottom-0">
     </div>
-    <img src="@/assets/images/home/section-2/terrain.svg" alt="" class="w-full">
+    <img src="@/assets/images/home/section-2/terrain.svg" alt="" class="w-full min-h-[400px] object-cover">
 
   </section>
 </template>
@@ -301,25 +301,27 @@
 @keyframes slideDownUp {
   0% {
     transform: translateY(0) scale(0.8);
+    opacity: 1;
   }
 
   40% {
     transform: translateY(40px) scale(1);
-    /* Adjust the number of pixels for the downward slide */
+    opacity: .8;
   }
 
   50% {
     transform: translateY(40px) scale(1);
-    /* Pause at the bottom position */
+    opacity: .8;
   }
 
   90% {
     transform: translateY(0) scale(0.8);
-    /* Pause at the top position before restarting */
+    opacity: 1;
   }
 
   100% {
     transform: translateY(0) scale(0.8);
+    opacity: 1;
   }
 }
 @keyframes rotate-animation {

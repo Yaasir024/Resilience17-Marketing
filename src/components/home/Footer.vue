@@ -75,7 +75,7 @@ const currentYear = computed(() => {
                         </div>
                     </div>
                     <div class="flex-full mb:flex-50% mb:pl-[16px] flex justify-between xs:justify-end mt-[140px] xs:mt-8 mb:mt-0">
-                        <img src="@/assets/logo/logo-full.svg" alt="" class="">
+                        <img src="@/assets/logo/logo-full.svg" alt="" class="block xs:hidden">
                         <button class="text-base leading-[21px] tracking-[-0.02em]  flex items-center" @click="scrollTo('hero')">
                             <span class="font-bold">Back to top</span>
                             <svg class="ml-2" width="14" height="15" viewBox="0 0 14 15" fill="none"

@@ -35,7 +35,8 @@ onMounted(() => {
             <img src="@/assets/images/home/section-4/pattern.svg" alt="" class="w-full hidden sm:block">
         </div>
         <div class="w-full lg:w-[50%]">
-            <div class="pt-[40px] sm:pt-[70px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
+            <div
+                class="pt-[40px] sm:pt-[70px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/funding.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-green font-manuka">Funding</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -44,7 +45,8 @@ onMounted(() => {
                 </p>
 
             </div>
-            <div class="pt-[40px] sm:pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
+            <div
+                class="pt-[40px] sm:pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/advisory.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-yellow font-manuka">Advisory</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -53,7 +55,8 @@ onMounted(() => {
                 </p>
 
             </div>
-            <div class="pt-[40px] sm:pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
+            <div
+                class="pt-[40px] sm:pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/talent.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-brown font-manuka">Talent</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -62,7 +65,8 @@ onMounted(() => {
                 </p>
 
             </div>
-            <div class="pt-[40px] sm:pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px]">
+            <div
+                class="pt-[40px] sm:pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px]">
                 <img src="@/assets/images/home/section-4/d-factory.svg" alt="" class="h-[96px] w-[96px]">
                 <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-blue font-manuka">d.Factory</h3>
                 <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
@@ -76,11 +80,13 @@ onMounted(() => {
                 <p class="text-[20px] leading-[32px] mb-[80px] md:mb-0">
                     Ready to go from idea to unicorn and beyond?
                 </p>
-                <div class="flex md:items-center justify-between flex-col-reverse md:flex-row border-t border-t-rm-dark pt-[12px] pb-[64px]">
-                    <h3 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka mt-[24px] md:mt-0">Venture forward with
+                <div
+                    class="flex md:items-center justify-between flex-col-reverse md:flex-row border-t border-t-rm-dark pt-[12px] pb-[64px]">
+                    <h3 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka mt-[24px] md:mt-0">
+                        Venture forward with
                         us</h3>
-                    <svg class="arrow h-[34px] sm:h-[42px] w-[34px] sm:w-[42px] ml-auto md:ml-0" viewBox="0 0 42 42" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="arrow h-[34px] sm:h-[42px] w-[34px] sm:w-[42px] ml-auto md:ml-0" viewBox="0 0 42 42"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
                             stroke-width="0.6" />
                     </svg>
@@ -97,7 +103,7 @@ onMounted(() => {
     transform-origin: top right;
     transition: all .3s ease-in-out;
 }
+
 .last-card:hover .arrow {
     transform: scale(0.8);
-}
-</style>
+}</style>

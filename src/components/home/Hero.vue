@@ -17,31 +17,25 @@ import { scrollTo } from '@/composables/useScrollToSection'
                         <div class="flex gap-x-[32px] mb-[12px]">
 
                             <li class="  ">
-                                <RouterLink to="/">
-                                    <div
-                                        class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px]">
-                                        R17 Vision</div>
-                                </RouterLink>
+                                <div
+                                    class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px] cursor-pointer" @click="scrollTo('section-2')">
+                                    R17 Vision</div>
                             </li>
                             <li class="  ">
-                                <RouterLink to="/">
-                                    <div
-                                        class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px]">
-                                        Approach</div>
-                                </RouterLink>
+                                <div
+                                    class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px] cursor-pointer" @click="scrollTo('approach')">
+                                    Approach</div>
                             </li>
                         </div>
                         <div class="flex gap-x-[32px] ">
 
                             <li class="">
-                                <RouterLink to="/">
-                                    <div
-                                        class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px]">
-                                        Portfolio</div>
-                                </RouterLink>
+                                <div
+                                    class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[185px] cursor-pointer" @click="scrollTo('portfolio')">
+                                    Portfolio</div>
                             </li>
                             <li class="">
-                                <RouterLink to="/">
+                                <a href="#">
                                     <div
                                         class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-r-2 border-rm-dark w-full min-w-[185px] flex items-center justify-between">
                                         <span class="font-bold">Apply Now </span>
@@ -53,7 +47,7 @@ import { scrollTo } from '@/composables/useScrollToSection'
                                         </svg>
 
                                     </div>
-                                </RouterLink>
+                                </a>
                             </li>
                         </div>
                     </ul>
