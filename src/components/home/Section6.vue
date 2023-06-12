@@ -3,7 +3,7 @@ const data = [
     {
         id: '1',
         tag: 'insurance',
-        name: 'Cassava Insurance',
+        name: 'Casava Insurance',
         excerpt: 'Facilitating an emerging future of insurance you enjoy.',
     },
     {
@@ -27,7 +27,7 @@ const data = [
     {
         id: '5',
         tag: 'insurance',
-        name: 'Cassava Insurance',
+        name: 'Casava Insurance',
         excerpt: 'Facilitating an emerging future of insurance you enjoy.',
     },
     {
