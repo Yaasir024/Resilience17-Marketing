@@ -8,8 +8,21 @@ const showMobileNav = ref(false)
 const mobileNav = ref(null)
 
 useClickOutside(mobileNav, () => {
+    document.body.classList.remove('modal-open');
     showMobileNav.value = false
 })
+
+const toggleMobileNav = () => {
+    console.log('toggle')
+    if(showMobileNav.value) {
+        document.body.classList.remove('modal-open');
+        showMobileNav.value = false
+    }
+    else if(!showMobileNav.value) {
+        document.body.classList.add('modal-open');
+        showMobileNav.value = true
+    }
+}
 
 const scroll = (section) => {
     showMobileNav.value = false
@@ -25,9 +38,9 @@ const currentYear = computed(() => {
 
 <template>
     <section id="hero" class="section h-screen bg-rm-green relative">
-        <div class="w-full pb-[300px] relative">
+        <div class="w-full sm:pb-[300px] relative">
             <header
-                class="pt-[18px] sm:pt-[40px] px-[20px] sm:px-[30px] md:px-[64px]  flex justify-between items-center lg:items-start">
+                class="pt-[18px] md:pt-[40px] px-[20px] sm:px-[30px] md:px-[64px]  flex justify-between items-center lg:items-start">
                 <div class="logo hidden sm:flex mb-5 lg:mb-0 ">
                     <img src="@/assets/logo/icon.svg" alt="" class="mr-[8px]">
                     <img src="@/assets/logo/text.svg" alt="" class="">
@@ -74,7 +87,7 @@ const currentYear = computed(() => {
                     </ul>
                 </nav>
                 <div class="block sm:hidden reative" ref="mobileNav">
-                    <button class="" @click="showMobileNav = !showMobileNav">
+                    <button class="" @click="toggleMobileNav">
                         <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M1.375 0.833344C1.14294 0.833344 0.920376 0.925531 0.756281 1.08962C0.592187 1.25372 0.5 1.47628 0.5 1.70834C0.5 1.94041 0.592187 2.16297 0.756281 2.32706C0.920376 2.49116 1.14294 2.58334 1.375 2.58334H20.625C20.8571 2.58334 21.0796 2.49116 21.2437 2.32706C21.4078 2.16297 21.5 1.94041 21.5 1.70834C21.5 1.47628 21.4078 1.25372 21.2437 1.08962C21.0796 0.925531 20.8571 0.833344 20.625 0.833344H1.375ZM1.375 5.50001C1.14294 5.50001 0.920376 5.5922 0.756281 5.75629C0.592187 5.92039 0.5 6.14295 0.5 6.37501C0.5 6.60707 0.592187 6.82963 0.756281 6.99373C0.920376 7.15782 1.14294 7.25001 1.375 7.25001H20.625C20.8571 7.25001 21.0796 7.15782 21.2437 6.99373C21.4078 6.82963 21.5 6.60707 21.5 6.37501C21.5 6.14295 21.4078 5.92039 21.2437 5.75629C21.0796 5.5922 20.8571 5.50001 20.625 5.50001H1.375ZM0.5 11.0417C0.5 10.8096 0.592187 10.5871 0.756281 10.423C0.920376 10.2589 1.14294 10.1667 1.375 10.1667H20.625C20.8571 10.1667 21.0796 10.2589 21.2437 10.423C21.4078 10.5871 21.5 10.8096 21.5 11.0417C21.5 11.2737 21.4078 11.4963 21.2437 11.6604C21.0796 11.8245 20.8571 11.9167 20.625 11.9167H1.375C1.14294 11.9167 0.920376 11.8245 0.756281 11.6604C0.592187 11.4963 0.5 11.2737 0.5 11.0417ZM1.375 14.8333C1.14294 14.8333 0.920376 14.9255 0.756281 15.0896C0.592187 15.2537 0.5 15.4763 0.5 15.7083C0.5 15.9404 0.592187 16.163 0.756281 16.3271C0.920376 16.4912 1.14294 16.5833 1.375 16.5833H20.625C20.8571 16.5833 21.0796 16.4912 21.2437 16.3271C21.4078 16.163 21.5 15.9404 21.5 15.7083C21.5 15.4763 21.4078 15.2537 21.2437 15.0896C21.0796 14.9255 20.8571 14.8333 20.625 14.8333H1.375Z"
@@ -82,7 +95,7 @@ const currentYear = computed(() => {
                         </svg>
                     </button>
                     <transition name="nav">
-                        <div class="fixed h-[calc(100vh-60px)] sm:h-[calc(100vh-100px)] flex flex-col justify-between bottom-0 left-0 right-0 bg-rm-dark z-50"
+                        <div class="fixed h-[calc(100vh-60px)] sm:h-[calc(100vh-100px)] flex flex-col justify-between bottom-0 left-0 right-0 bg-rm-dark z-50 overflow-y-auto"
                             v-if="showMobileNav">
                             <ul class="px-[20px]">
                                 <li class="py-[30px] text-[34px] leading-[39px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
@@ -159,7 +172,7 @@ const currentYear = computed(() => {
             </header>
 
             <div
-                class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[144px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden">
+                class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
                 <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
@@ -170,15 +183,15 @@ const currentYear = computed(() => {
             </div>
         </div>
         <img src="@/assets/images/home/hero/plane-cloud-right.svg" alt=""
-            class="absolute left-[195px] bottom-[205px] z-[3] hidden md:block">
+            class="absolute left-[165px] sm:left-[195px] bottom-[205px] z-[3] ">
         <img src="@/assets/images/home/hero/plane-right.svg" alt=""
-            class="absolute left-[155px] bottom-[38px] z-[3] hidden md:block">
+            class="absolute left-[100px] sm:left-[155px] bottom-[38px] z-[3] ">
         <img src="@/assets/images/home/hero/big-plane.svg" alt=""
-            class="absolute left-0 bottom-[35px] z-[2] h-[250px] w-[240px] hidden md:block">
+            class="absolute left-[-30px] sm:left-0 bottom-[35px] z-[2] h-[250px] w-[240px] ">
         <img src="@/assets/images/home/hero/plane-left.svg" alt=""
-            class="absolute left-[1px] bottom-[175px] z-[1] hidden md:block">
+            class="absolute left-[-20px] sm:left-[1px] bottom-[175px] z-[1] ">
         <img src="@/assets/images/home/hero/plane-cloud-left.svg" alt=""
-            class="absolute left-[1px] bottom-[120px] z-[1] hidden md:block">
+            class="absolute left-[-20px] sm:left-[1px] bottom-[120px] z-[1] ">
         <div
             class="absolute bottom-0 left-0 right-0 text-xl xs:text-[24px] leading-[26px] sm:leading-[31px] tracing-[0.02em] font-bold uppercase bg-rm-light-2 flex z-10">
             <div class="py-[14px] px-[15px] sm:px-[24px] font-bold">NEWS</div>
