@@ -6,7 +6,7 @@
                     class="text-[96px] 2xl:text-[104px] leading-[84px] md:leading-[92px] tracking-[0.01em] font-extrabold max-w-[350px] font-manuka text-rm-green xs:text-rm-light">
                     Spotting an
                     R17 Founder</h1>
-                <p class="mt-[24px] text-[28px] leading-[36px] tracking-[0.01em] text-rm-light-2">What we look for to
+                <p class="mt-[24px] text-[26px] 3xs:text-[28px] leading-[36px] tracking-[0.01em] text-rm-light-2">What we look for to
                     invest.</p>
             </div>
             <img src="@/assets/images/home/pattern-sec7.svg" alt="" class="mb-[64px] xs:mb-0 w-full">
@@ -57,15 +57,15 @@
                 </div>
             </div>
             <div
-                class="btm-card bg-rm-light xs:bg-rm-dark px-[20px] xs:px-[45px] sm:px-[64px] pt-[56px] pb-[64px] xs:hover:bg-rm-yellow">
-                <p class="small-txt text-[20px] leading-[32px] font-medium text-rm-dark xs:text-rm-light-2">Ready to go from
+                class="btm-card bg-rm-dark px-[20px] xs:px-[45px] sm:px-[64px] pt-[56px] pb-[64px] hover:bg-rm-yellow">
+                <p class="small-txt text-[20px] leading-[32px] font-medium text-rm-light-2">Ready to go from
                     idea to unicorn and beyond?</p>
                 <div
-                    class="arr-section flex md:items-center justify-between flex-col-reverse md:flex-row border-t border-t-rm-dark xs:border-t-rm-light pt-[12px] mt-[40px]">
+                    class="arr-section flex md:items-center justify-between flex-col-reverse md:flex-row border-t border-t-rm-light pt-[12px] mt-[40px]">
                     <h3
-                        class="big-txt text-[64px] leading-[65px] tracking-[0.02em] text-rm-dark xs:text-rm-light font-manuka">
+                        class="big-txt text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.01em] 3xs:tracking-[0.02em] text-rm-light font-medium font-manuka">
                         Venture forward with us</h3>
-                    <svg class="arrow h-[32px] sm:h-[42px] w-[32px] sm:w-[42px] mb-[24px] md:mb-0 ml-auto md:ml-0"
+                    <svg class="arrow h-[26px] 3xs:h-[32px] sm:h-[42px] w-[26px] 3xs:w-[32px] sm:w-[42px] mb-[24px] md:mb-0 ml-auto md:ml-0"
                         viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#E5E5DB" stroke="#E5E5DB"
                             stroke-width="0.6" />
@@ -78,8 +78,6 @@
 </template>
 
 <style scoped>
-@media only screen and (min-width: 600px) {
-
     .btm-card:hover .small-txt {
         color: #000609;
     }
@@ -96,14 +94,16 @@
         fill: #000609;
         stroke: #000609;
     }
+@media only screen and (min-width: 600px) {
+
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .btm-card .arrow path {
         fill: #000609;
         stroke: #000609;
     }
-}
+} */
 
 .btm-card .arrow {
     transform-origin: top right;

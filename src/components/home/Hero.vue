@@ -14,11 +14,11 @@ useClickOutside(mobileNav, () => {
 
 const toggleMobileNav = () => {
     console.log('toggle')
-    if(showMobileNav.value) {
+    if (showMobileNav.value) {
         document.body.classList.remove('modal-open');
         showMobileNav.value = false
     }
-    else if(!showMobileNav.value) {
+    else if (!showMobileNav.value) {
         document.body.classList.add('modal-open');
         showMobileNav.value = true
     }
@@ -99,17 +99,17 @@ const currentYear = computed(() => {
                         <div class="fixed h-[calc(100vh-60px)] sm:h-[calc(100vh-100px)] flex flex-col justify-between bottom-0 left-0 right-0 bg-rm-dark z-50 overflow-y-auto"
                             v-if="showMobileNav">
                             <ul class="px-[20px]">
-                                <li class="py-[30px] text-[34px] leading-[39px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
+                                <li class="py-[16px] text-xl leading-[28px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
                                     @click="scroll('section-2')">R17 Vision</li>
-                                <li class="py-[30px] text-[34px] leading-[39px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
+                                <li class="py-[16px] text-xl leading-[28px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
                                     @click="scroll('approach')">Approach</li>
-                                <li class="py-[30px] text-[34px] leading-[39px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
+                                <li class="py-[16px] text-xl leading-[28px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
                                     @click="scroll('portfolio')">Portfolio</li>
-                                <li class="text-[34px] leading-[39px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
+                                <li class="text-xl leading-[28px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
                                     @click="scroll('portfolio')">
-                                    <a href="#" class="py-[30px] flex items-center justify-between">
+                                    <a href="#" class="py-[16px] flex items-center justify-between">
                                         <span class="font-bold">Apply Now </span>
-                                        <svg class="mr-2" width="20" height="20" viewBox="0 0 16 16" fill="none"
+                                        <svg class="mr-2" width="14" height="14" viewBox="0 0 16 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M3.5 0.5V2H12.9425L0.5 14.4425L1.5575 15.5L14 3.0575V12.5H15.5V0.5H3.5Z"
@@ -119,19 +119,19 @@ const currentYear = computed(() => {
                                 </li>
                             </ul>
                             <div class="border-t border-[#545440]">
-                                <div class="pt-[16px] px-[20px] pb-[24px] w-full">
+                                <div class="pt-[12px] px-[20px] pb-[18px] w-full">
                                     <h2
-                                        class="text-[48px] leading-[49px] tracking-[0.02em] font-medium font-manuka text-rm-light-2 ">
+                                        class="text-[34px] leading-[40px] tracking-[0.02em] font-medium font-manuka text-rm-light-2 ">
                                         Subscribe to
                                         our newsletter</h2>
-                                    <div class="mt-[24px] w-full bg-rm-light p-1.5 ">
+                                    <div class="mt-[18px] w-full bg-rm-light p-1 ">
                                         <form @submit.prevent class="flex">
                                             <input type="text" placeholder="Email address"
-                                                class="w-full px-[24px] text-[20px] leading-[26px] xs:leading-[31px] bg-transparent border-none outline-none font-medium text-rm-dark">
+                                                class="w-full px-[24px] text-lg leading-[26px] xs:leading-[31px] bg-transparent border-none outline-none font-medium text-rm-dark">
                                             <button type="submit"
-                                                class="text-[20px] leading-[26px] tracking-[-0.01em] p-[16px]  bg-rm-dark flex items-center text-rm-light"><span
+                                                class="text-lg leading-[26px] tracking-[-0.01em] p-[10px]  bg-rm-dark flex items-center text-rm-light"><span
                                                     class="">Submit</span> <svg
-                                                    class="arrow ml-[16px] w-[18px] xs:w-[24px] h-[16px] xs:h-[20px] "
+                                                    class="arrow ml-[16px] w-[14px] xs:w-[24px] h-[14px] xs:h-[20px] "
                                                     viewBox="0 0 50 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path
                                                         d="M29 1L26.14 3.786L41.3 19H1V23H41.3L26.14 38.146L29 41L49 21L29 1Z"
@@ -146,7 +146,7 @@ const currentYear = computed(() => {
                                 </div>
                                 <div class="bg-rm-yellow">
                                     <div
-                                        class="px-[20px] py-[16px] flex items-center justify-between border-b border-rm-dark">
+                                        class="px-[20px] py-[12px] flex items-center justify-between border-b border-rm-dark">
                                         <a href="#" class="text-lg leading-[23px] tracking-[0.01em]">
                                             Twitter
                                         </a>
@@ -157,7 +157,7 @@ const currentYear = computed(() => {
                                             Instagram
                                         </a>
                                     </div>
-                                    <div class="px-[20px] py-[12px] flex items-center justify-between">
+                                    <div class="px-[20px] py-[10px] flex items-center justify-between">
                                         <span class="text-[14px] leading-[17px] tracking-[0.02em]">{{ currentYear }},
                                             Resilience17</span>
                                         <span class="text-[14px] leading-[17px] tracking-[0.02em]">Design, <span
@@ -173,7 +173,7 @@ const currentYear = computed(() => {
             </header>
 
             <div
-                class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden max-w-[1520px] 2xl:mx-auto">
+                class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[115px] 3xs:text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[95px] 3xs:leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden max-w-[1520px] 2xl:mx-auto">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
                 <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
@@ -184,13 +184,13 @@ const currentYear = computed(() => {
             </div>
         </div>
         <img src="@/assets/images/home/hero/plane-cloud-right.svg" alt=""
-            class="absolute left-[165px] sm:left-[195px] bottom-[205px] z-[3] ">
+            class="absolute left-[96px] 3xs:left-[165px] sm:left-[195px] bottom-[155px] 3xs:bottom-[205px] z-[3] ">
         <img src="@/assets/images/home/hero/plane-right.svg" alt=""
-            class="absolute left-[100px] sm:left-[155px] bottom-[38px] z-[3] ">
+            class="absolute left-[65px] 3xs:left-[100px] sm:left-[155px] bottom-[8px] 3xs:bottom-[38px] z-[3] ">
         <img src="@/assets/images/home/hero/big-plane.svg" alt=""
-            class="absolute left-[-30px] sm:left-0 bottom-[35px] z-[2] h-[250px] w-[240px] ">
+            class="absolute left-[-30px] sm:left-0 bottom-[35px] z-[2] h-[175px] 3xs:h-[250px] w-[165px] 3xs:w-[240px] ">
         <img src="@/assets/images/home/hero/plane-left.svg" alt=""
-            class="absolute left-[-20px] sm:left-[1px] bottom-[175px] z-[1] ">
+            class="absolute left-[-20px] sm:left-[1px] bottom-[120px] 3xs:bottom-[175px] z-[1] ">
         <img src="@/assets/images/home/hero/plane-cloud-left.svg" alt=""
             class="absolute left-[-20px] sm:left-[1px] bottom-[120px] z-[1] ">
         <div

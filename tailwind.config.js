@@ -7,6 +7,7 @@ module.exports = {
       manuka: ["Test Manuka"],
     },
     screens: {
+      '3xs': "400px",
       xs: "600px",
       sm: "640px",
       // => @media (min-width: 640px) { ... }

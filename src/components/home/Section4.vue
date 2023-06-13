@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <section id="approach" class="approach  lg:flex bg-rm-light">
+    <section id="approach" class="approach section lg:flex bg-rm-light">
         <div id="left-approach"
             class="left-approach w-full lg:w-[50%]  pt-[64px] flex flex-col justify-between md:h-screen">
             <div class="px-[20px] xs:px-[45px] sm:px-[64px] mb-[64px] sm:mb-6 md:mb-0">
@@ -77,15 +77,15 @@ onMounted(() => {
             </div>
             <div
                 class="last-card pt-[48px] sm:pt-[56px] px-[20px] xs:px-[45px] sm:px-[64px] flex flex-col justify-between md:min-h-[470px] xs:hover:bg-rm-yellow">
-                <p class="text-[20px] leading-[32px] mb-[80px] md:mb-0">
+                <p class="text-[20px] leading-[32px] font-medium mb-[80px] md:mb-0">
                     Ready to go from idea to unicorn and beyond?
                 </p>
                 <div
                     class="flex md:items-center justify-between flex-col-reverse md:flex-row border-t border-t-rm-dark pt-[12px] pb-[64px]">
-                    <h3 class="text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka mt-[24px] md:mt-0">
+                    <h3 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.01em] 3xs:tracking-[0.02em] text-rm-dark font-medium font-manuka mt-[24px] md:mt-0">
                         Venture forward with
                         us</h3>
-                    <svg class="arrow h-[34px] sm:h-[42px] w-[34px] sm:w-[42px] ml-auto md:ml-0" viewBox="0 0 42 42"
+                    <svg class="arrow h-[26px] 3xs:h-[32px] sm:h-[42px] w-[26px] 3xs:w-[32px] sm:w-[42px] ml-auto md:ml-0" viewBox="0 0 42 42"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
                             stroke-width="0.6" />

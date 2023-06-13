@@ -1,9 +1,9 @@
 <template>
-  <section id="section-2" class="section">
+  <section id="section-2" class="section overflow-x-hidden">
     <div class="bg-rm-light flex flex-wrap pt-[56px] pl-[20px] xs:pl-[45px] md:pl-[64px] relative">
       <div class="pb-[120px] flex-full lg:flex-50% pr-[20px] xs:pr-[45px] md:pr-[64px]">
         <h2
-          class="text-[68px] md:text-[72px] leading-[63px] tracking-[0.02em] xs:tracking-[0.01em] max-w-[400px] xs:max-w-[580px] font-extrabold font-manuka ">
+          class="text-[60px] 3xs:text-[68px] md:text-[72px] leading-[63px] tracking-[0.02em] xs:tracking-[0.01em] max-w-[400px] xs:max-w-[580px] font-extrabold font-manuka ">
           Resilience17 helps <br>
           visionary African founders
           build the next generation <br>
@@ -11,13 +11,13 @@
         </h2>
         <p
           class="text-[20px] leading-[29px] xs:font-medium tracking-[0.01em] max-w-[590px] mt-[24px]">
-          We know <span class="font-medium underline">firsthand</span> how lonely and difficult it gets in an unknown
+          We know <span class="xs:font-medium underline">firsthand</span> how lonely and difficult it gets in an unknown
           terrain with low visibility, lack of
           infrastructure, almost zero support, and limited access to funding.
-          <span class="font-medium mt-3 inline-block">With us, you can overcome almost anything.</span> 
+          <span class="xs:font-medium mt-3 inline-block">With us, you can overcome almost anything.</span> 
         </p>
       </div>
-      <div class="flex-full lg:flex-50% flex md:hidden lg:flex xs:items-end xs:pl-[80px] pr-[100px] xs:pr-0 ">
+      <div class="flex-full lg:flex-50% flex md:hidden lg:flex xs:items-end xs:pl-[80px] pr-[100px] xs:pr-0">
         <div class="relative">
 
           <div class="slide pb-[30px] z-[2] relative">
