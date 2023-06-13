@@ -7,6 +7,10 @@
 body {
   /* Set cursor to default arrow for screens larger than or equal to 640px */
   cursor: url('./cursor.svg'), auto;
+  height: 100%;
+}
+html {
+  height: 100%;
 }
 
 @media (max-width: 640px) {

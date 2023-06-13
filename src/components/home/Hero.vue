@@ -38,7 +38,7 @@ const currentYear = computed(() => {
 </script>
 
 <template>
-    <section id="hero" class="section h-screen bg-rm-green relative">
+    <section id="hero" class="section h-[100dvh] xs:h-screen bg-rm-green relative">
         <div class="w-full sm:pb-[300px] relative">
             <header
                 class="pt-[18px] md:pt-[40px] px-[20px] sm:px-[30px] md:px-[64px]  flex justify-between items-center lg:items-start">
@@ -173,7 +173,7 @@ const currentYear = computed(() => {
             </header>
 
             <div
-                class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[115px] 3xs:text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[95px] 3xs:leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden max-w-[1520px] 2xl:mx-auto">
+                class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[125px] 3xs:text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[95px] 3xs:leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden max-w-[1520px] 2xl:mx-auto">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
                 <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
