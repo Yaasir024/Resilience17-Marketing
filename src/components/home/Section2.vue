@@ -17,7 +17,7 @@
           <span class="xs:font-medium mt-3 inline-block">With us, you can overcome almost anything.</span> 
         </p>
       </div>
-      <div class="flex-full lg:flex-50% flex md:hidden lg:flex justify-end sm:pl-[80px] pr-[100px] sm:pr-0">
+      <div class="flex-full lg:flex-50% flex md:hidden lg:flex items-end justify-end sm:justify-start  sm:pl-[80px] pr-[100px] sm:pr-0">
         <div class="relative">
 
           <div class="slide pb-[30px] z-[2] relative">
