@@ -28,7 +28,7 @@ onMounted(() => {
                     class="text-[96px] md:text-[104px] leading-[84px] sm:leading-[92px] tracking-[0.01em] font-extrabold font-manuka">
                     The R17 Approach
                 </h1>
-                <h1 class="text-[28px] leading-[36px] tracking-[0.01em] font-medium mt-[24px]">
+                <h1 class="text-[28px] leading-[36px] tracking-[0.01em] font-medium mt-[24px] max-w-[260px] xs:max-w-full">
                     All round support, beyond funding.
                 </h1>
             </div>

@@ -58,7 +58,7 @@
             </div>
             <div
                 class="btm-card bg-rm-dark px-[20px] xs:px-[45px] sm:px-[64px] pt-[56px] pb-[64px] hover:bg-rm-yellow">
-                <p class="small-txt text-[20px] leading-[32px] font-medium text-rm-light-2">Ready to go from
+                <p class="small-txt text-[20px] leading-[32px] font-medium text-rm-light-2 max-w-[310px] xs:max-w-full">Ready to go from
                     idea to unicorn and beyond?</p>
                 <div
                     class="arr-section flex md:items-center justify-between flex-col-reverse md:flex-row border-t border-t-rm-light pt-[12px] mt-[40px]">

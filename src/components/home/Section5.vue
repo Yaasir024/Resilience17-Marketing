@@ -58,7 +58,7 @@
                     Features</h1>
                 <div class="mt-[24px] lg:mt-0 lg:flex-33.33% lg:flex">
                     <p
-                        class="text-[18px] leading-[29px] tracking-[0.01em] font-medium text-rm-light text-left max-w-[300px] sm:max-w-[300px] lg:max-w-[320px]">
+                        class="text-[18px] leading-[29px] tracking-[0.01em] font-medium text-rm-light text-left max-w-[310px] sm:max-w-[300px] lg:max-w-[320px]">
                         Backing bold, visionary founders that strive to move Africa forward.</p>
                     
                 </div>
