@@ -1,5 +1,17 @@
-@import './base.css';
+@import "./base.css";
 
 .modal-open {
-    overflow: hidden;
+  overflow: hidden;
+}
+
+body {
+  /* Set cursor to default arrow for screens larger than or equal to 640px */
+  cursor: url('./cursor.svg'), auto;
+}
+
+@media (max-width: 640px) {
+  body {
+    /* Set cursor to default for screens smaller than 640px */
+    cursor: auto;
   }
+}
