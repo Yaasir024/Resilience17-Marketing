@@ -306,12 +306,12 @@
 
   40% {
     transform: translateY(40px) scale(1);
-    opacity: .8;
+    opacity: .4;
   }
 
   50% {
     transform: translateY(40px) scale(1);
-    opacity: .8;
+    opacity: .4;
   }
 
   90% {
