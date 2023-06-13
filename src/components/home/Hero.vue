@@ -96,7 +96,7 @@ const currentYear = computed(() => {
                         </svg>
                     </button>
                     <transition name="nav">
-                        <div class="fixed h-[calc(100vh-60px)] sm:h-[calc(100vh-100px)] flex flex-col justify-between bottom-0 left-0 right-0 bg-rm-dark z-50 overflow-y-auto"
+                        <div class="fixed h-[calc(100vh-60px)] sm:h-[calc(100vh-100px)] flex flex-col justify-between top-[60px] bottom-0 left-0 right-0 bg-rm-dark z-50 overflow-y-auto"
                             v-if="showMobileNav">
                             <ul class="px-[20px]">
                                 <li class="py-[16px] text-xl leading-[28px] tracking-[-0.01em] font-bold text-rm-light border-b border-[#545440] cursor-pointer"
