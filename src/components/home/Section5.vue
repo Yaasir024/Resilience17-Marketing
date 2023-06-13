@@ -7,7 +7,7 @@
 
                 </div>
                 <div class="px-[20px] xs:px-[45px] sm:px-[64px] pt-[24px] pb-[40px] bg-rm-dark">
-                    <h3 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light max-w-[260px] xs:max-w-full">Olugbenga <span class="font-dm-sans">‘</span>GB<span class="font-dm-sans">‘</span>
+                    <h3 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.05em] font-manuka text-rm-light max-w-[210px] xs:max-w-full">Olugbenga <span class="font-dm-sans">‘</span>GB<span class="font-dm-sans">‘</span>
                         Agboola</h3>
                     <p class="text-[24px] leading-[38px] tracking-[0.01em] mt-[12px] text-rm-light-2">
                         Founder/CEO, <span class="underline">Flutterwave</span></p>
