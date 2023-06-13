@@ -2,7 +2,7 @@
     <section class="bg-rm-dark lg:flex">
         <img src="@/assets/images/home/newsletter-pattern.svg" alt="" class="hidden lg:block">
         <div class="pt-[48px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[42px] w-full">
-            <h2 class="text-[64px] leading-[65px] tracking-[0.02em] max-w-[250px] xs:max-w-full font-medium font-manuka text-rm-light-2 ">Subscribe to
+            <h2 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.02em] max-w-[225px] 3xs:max-w-[250px] xs:max-w-full font-medium font-manuka text-rm-light-2 ">Subscribe to
                 our newsletter</h2>
             <div class="mt-[24px] w-full bg-rm-light p-1.5 xs:p-2 ">
                 <form @submit.prevent class="flex">
