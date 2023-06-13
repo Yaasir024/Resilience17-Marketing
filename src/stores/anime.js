@@ -29,7 +29,7 @@ export const useAnime = defineStore("anime", () => {
       gsap.to(section, {
         scrollTrigger: {
           trigger: section,
-          start: "top top",
+          start: "bottom bottom",
           end: () => `+=${sectionHeight}`,
           pin: true,
           pinSpacing: false,
