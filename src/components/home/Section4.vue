@@ -66,16 +66,6 @@ onMounted(() => {
 
             </div>
             <div
-                class="pt-[40px] sm:pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px]">
-                <img src="@/assets/images/home/section-4/d-factory.svg" alt="" class="h-[96px] w-[96px]">
-                <h3 class="text-[64px] leading-[65px] tracking-[0.05em] mt-[24px] text-rm-blue font-manuka">d.Factory</h3>
-                <p class="text-[20px] leading-[34px] tracking-[0.01em] mt-[24px] text-rm-light-2 max-w-[460px]">
-                    Embrace digital transformation with R17's cutting-edge d.Factory. We combine efficient discovery,
-                    design, and, development to build truly digital experiences and fortify industries.
-                </p>
-
-            </div>
-            <div
                 class="last-card pt-[48px] sm:pt-[56px] px-[20px] xs:px-[45px] sm:px-[64px] flex flex-col justify-between md:min-h-[470px] xs:hover:bg-rm-yellow">
                 <p class="text-[20px] leading-[32px] font-medium mb-[80px] md:mb-0">
                     Ready to go from idea to unicorn and beyond?

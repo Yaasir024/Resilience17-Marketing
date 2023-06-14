@@ -7,7 +7,7 @@
         </div>
         <div class="flex flex-wrap w-full">
             <div class="flex-full sm:flex-50% xl:flex-25% pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] 2xl:px-[64px] border-t border-r border-[#545440] pb-12 md:h-[400px] flex flex-col">
-                <h3 class="text-[80px] leading-[81px] tracking-[0.04em] font-medium font-manuka text-rm-green">2017</h3>
+                <h3 class="text-[80px] leading-[81px] tracking-[0.04em] font-medium font-manuka text-rm-green">2021</h3>
                 <h3 class="text-[28px] leading-[36px] tracking-[0.01em] font-medium mt-[8px] text-rm-light">r17 Launch Date</h3>
             </div>
             <div class="flex-full sm:flex-50% xl:flex-25% pt-[64px] px-[20px] xs:px-[45px] sm:px-[64px] 2xl:px-[64px] border-t border-r border-[#545440] pb-12 md:h-[400px]  flex justify-end sm:justify-start">

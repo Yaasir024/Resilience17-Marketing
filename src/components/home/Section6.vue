@@ -2,57 +2,66 @@
 const data = [
     {
         id: '1',
-        tag: 'insurance',
-        name: 'Casava Insurance',
-        excerpt: 'Facilitating an emerging future of insurance you enjoy.',
+        tag: 'Healthcare',
+        name: 'Iwosan Hospitals',
+        excerpt: 'Primary health care facility providing 24-hour emergency services.',
+        href: 'https://www.lagoonhospitals.com/',
     },
     {
         id: '2',
-        tag: 'fintech',
-        name: 'flutterwave',
-        excerpt: 'We help banks and businesses build secure and seamless payments solutions for their customers.',
+        tag: 'HR TECH',
+        name: 'pade HCM',
+        excerpt: 'End-to-end people operations software for the new world of work.',
+        href: 'https://www.padehcm.com/',
     },
     {
         id: '3',
-        tag: 'HR TECH',
-        name: 'pade HCM',
-        excerpt: 'Building robust employee onboarding and reward systems for companies.',
+        tag: 'real estate',
+        name: 'Small Small',
+        excerpt: 'A smart way to pay rent and make real estate purchases flexibly.',
+        href: 'https://smallsmall.com/',
     },
     {
         id: '4',
-        tag: 'investments',
-        name: 'bamboo',
-        excerpt: 'On a mission to democratize access to investment opportunities for Africans',
+        tag: 'hr tech',
+        name: 'Bento Labs',
+        excerpt: 'Reimagining salaries, benefits & HRM for employers and employees across Africa, wherever work happens.',
+        href: 'https://bento.africa/',
     },
     {
         id: '5',
-        tag: 'insurance',
-        name: 'Casava Insurance',
-        excerpt: 'Facilitating an emerging future of insurance you enjoy.',
+        tag: 'fintech',
+        name: 'Klump',
+        excerpt: 'Building infrastructure for flexible payment plans for everyone.',
+        href: 'https://useklump.com/',
     },
     {
         id: '6',
-        tag: 'healthcare',
-        name: 'remedial health',
-        excerpt: 'Improving quality of life in Africa',
+        tag: 'fintech',
+        name: 'Carrot',
+        excerpt: 'Helping businesses and their customers access a line of credit collateralized by their assets.',
+        href: 'https://www.carrotcredit.com/',
     },
     {
         id: '7',
-        tag: 'HR TECH',
-        name: 'pade HCM',
-        excerpt: 'Building robust employee onboarding and reward systems for companies.',
+        tag: 'education',
+        name: 'Altschool',
+        excerpt: 'Earn a diploma in high-in-demand tech skills at an affordable cost.',
+        href: 'https://www.altschoolafrica.com/',
     },
     {
         id: '8',
-        tag: 'healthcare',
-        name: 'remedial health',
-        excerpt: 'Improving quality of life in Africa',
+        tag: 'fintech',
+        name: 'Lipa Later',
+        excerpt: 'Affordable and flexible monthly installments payments at 500+ stores across Africa.',
+        href: 'https://lipalater.com/',
     },
     {
         id: '9',
-        tag: 'fintech',
-        name: 'flutterwave',
-        excerpt: 'We help banks and businesses build secure and seamless payments solutions for their customers.',
+        tag: 'capital',
+        name: 'Greycroft',
+        excerpt: 'Leading venture capital firm focused on investments in the Internet and mobile markets.',
+        href: 'https://www.greycroft.com/',
     },
 ]
 </script>
@@ -60,17 +69,23 @@ const data = [
 
 <template>
     <section id="portfolio" class="section flex flex-wrap">
-        <div class="card flex-full md:flex-50% lg:flex-33.33% px-[20px] xs:px-[45px] sm:px-[64px] py-[40px] border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
+        <div class="card flex-full md:flex-50% lg:flex-33.33% border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
             v-for="item in data" :key="item.id">
-            <svg class="arrow absolute top-[12px] right-[12px] xs:opacity-0" width="24" height="24" viewBox="0 0 42 42"
-                fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
-                    stroke-width="0.6" />
-            </svg>
-            <h4 class="text-[18px] leading-[23px] tracking-[0.04em] font-bold uppercase">{{ item.tag }}</h4>
-            <h2 class="mt-[16px] text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka capitalize">{{
-                item.name }}</h2>
-            <p class="mt-[120px] text-[20px] leading-[32px] tracking-[0.01em]">{{ item.excerpt }}</p>
+            <a :href="item.href" target="_blank">
+                <div class="px-[20px] xs:px-[45px] sm:px-[64px] py-[40px] ">
+
+                    <svg class="arrow absolute top-[12px] right-[12px] xs:opacity-0" width="24" height="24" viewBox="0 0 42 42"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
+                            stroke-width="0.6" />
+                    </svg>
+                    <h4 class="text-[18px] leading-[23px] tracking-[0.04em] font-bold uppercase">{{ item.tag }}</h4>
+                    <h2 class="mt-[16px] text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka capitalize">{{
+                        item.name }}</h2>
+                    <p class="mt-[120px] text-[20px] leading-[32px] tracking-[0.01em]">{{ item.excerpt }}</p>
+                </div>
+
+            </a>
         </div>
     </section>
 </template>
