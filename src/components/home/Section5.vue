@@ -49,21 +49,6 @@
                 </div>
             </div>
         </div>
-        <div class="bg-rm-dark ">
-            <img src="@/assets/images/home/pattern-sec6-mobile.svg" alt="" class="mb-[64px] w-full block xs:hidden">
-            <div class="flex flex-col lg:flex-row lg:items-end justify-between py-[56px] px-[20px] xs:px-[45px] sm:px-[64px] lg:px-0 md:px-[64px]">
-                <h1
-                    class="pl-0 lg:pl-[64px] text-[96px] md:text-[104px] leading-[84px] md:leading-[92px] tracking-[0.01em] font-extrabold font-manuka text-rm-green">
-                    Portfolio
-                    Features</h1>
-                <div class="mt-[24px] lg:mt-0 lg:flex-33.33% lg:flex">
-                    <p
-                        class="text-[18px] leading-[29px] tracking-[0.01em] font-medium text-rm-light text-left max-w-[310px] sm:max-w-[300px] lg:max-w-[320px]">
-                        Backing bold, visionary founders that strive to move Africa forward.</p>
-                    
-                </div>
-            </div>
-
-        </div>
+        
 
 </section></template>

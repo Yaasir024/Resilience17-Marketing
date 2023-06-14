@@ -68,25 +68,43 @@ const data = [
 
 
 <template>
-    <section id="portfolio" class="section flex flex-wrap">
-        <div class="card flex-full md:flex-50% lg:flex-33.33% border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
-            v-for="item in data" :key="item.id">
-            <a :href="item.href" target="_blank">
-                <div class="px-[20px] xs:px-[45px] sm:px-[64px] py-[40px] ">
-                    <svg class="arrow absolute top-[12px] right-[12px] xs:opacity-0" width="24" height="24"
-                        viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24 12L20 16H45.18L12 49.18L14.82 52L48 18.82V44L52 40V12H24Z" fill="#000609"
-                            stroke="#000609" stroke-width="0.6" />
-                    </svg>
-
-
-                    <h4 class="text-[18px] leading-[23px] tracking-[0.04em] font-bold uppercase">{{ item.tag }}</h4>
-                    <h2 class="mt-[16px] text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka capitalize">{{
-                        item.name }}</h2>
-                    <p class="mt-[120px] text-[20px] leading-[32px] tracking-[0.01em]">{{ item.excerpt }}</p>
+    <section id="portfolio" class="section">
+        <div class="bg-rm-dark ">
+            <img src="@/assets/images/home/pattern-sec6-mobile.svg" alt="" class="mb-[64px] w-full block xs:hidden">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between py-[56px] px-[20px] xs:px-[45px] sm:px-[64px] lg:px-0 md:px-[64px]">
+                <h1
+                    class="pl-0 lg:pl-[64px] text-[96px] md:text-[104px] leading-[84px] md:leading-[92px] tracking-[0.01em] font-extrabold font-manuka text-rm-green">
+                    Portfolio
+                    Features</h1>
+                <div class="mt-[24px] lg:mt-0 lg:flex-33.33% lg:flex">
+                    <p
+                        class="text-[18px] leading-[29px] tracking-[0.01em] font-medium text-rm-light text-left max-w-[310px] sm:max-w-[300px] lg:max-w-[320px]">
+                        Backing bold, visionary founders that strive to move Africa forward.</p>
+                    
                 </div>
+            </div>
 
-            </a>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="card flex-full md:flex-50% lg:flex-33.33% border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
+                v-for="item in data" :key="item.id">
+                <a :href="item.href" target="_blank">
+                    <div class="px-[20px] xs:px-[45px] sm:px-[64px] py-[40px] ">
+                        <svg class="arrow absolute top-[12px] right-[12px] xs:opacity-0" width="24" height="24"
+                            viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 12L20 16H45.18L12 49.18L14.82 52L48 18.82V44L52 40V12H24Z" fill="#000609"
+                                stroke="#000609" stroke-width="0.6" />
+                        </svg>
+    
+    
+                        <h4 class="text-[18px] leading-[23px] tracking-[0.04em] font-bold uppercase">{{ item.tag }}</h4>
+                        <h2 class="mt-[16px] text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka capitalize">{{
+                            item.name }}</h2>
+                        <p class="mt-[120px] text-[20px] leading-[32px] tracking-[0.01em]">{{ item.excerpt }}</p>
+                    </div>
+    
+                </a>
+            </div>
         </div>
     </section>
 </template>

@@ -4,23 +4,23 @@ import { ScrollTrigger } from 'gsap/all'
 import { gsap } from 'gsap'
 gsap.registerPlugin(ScrollTrigger)
 let mm = gsap.matchMedia();
-onMounted(() => {
-    mm.add("(min-width: 1024px)", () => {
-        // console.log('desktop')
-        ScrollTrigger.create({
-            trigger: "#approach",
-            start: "top top",
-            end: "bottom bottom",
-            pin: "#left-approach"
-        })
-    })
+// onMounted(() => {
+//     mm.add("(min-width: 1024px)", () => {
+//         // console.log('desktop')
+//         ScrollTrigger.create({
+//             trigger: "#approach",
+//             start: "top top",
+//             end: "bottom bottom",
+//             pin: "#left-approach"
+//         })
+//     })
 
-})
+// })
 
 </script>
 
 <template>
-    <section id="approach" class="approach section lg:flex bg-rm-light">
+    <section id="approach" class="approach  lg:flex bg-rm-light">
         <div id="left-approach"
             class="left-approach w-full lg:w-[50%]  pt-[64px] flex flex-col justify-between md:h-screen">
             <div class="px-[20px] xs:px-[45px] sm:px-[64px] mb-[64px] sm:mb-6 md:mb-0">
@@ -34,7 +34,7 @@ onMounted(() => {
             </div>
             <img src="@/assets/images/home/section-4/pattern.svg" alt="" class="w-full hidden sm:block">
         </div>
-        <div class="w-full lg:w-[50%]">
+        <div id="right-approach" class="w-full lg:w-[50%]">
             <div
                 class="pt-[40px] sm:pt-[70px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/funding.svg" alt="" class="h-[96px] w-[96px]">

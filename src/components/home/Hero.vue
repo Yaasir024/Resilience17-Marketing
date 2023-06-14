@@ -43,20 +43,20 @@ const currentYear = computed(() => {
             <header
                 class="pt-[18px] md:pt-[40px] px-[20px] sm:px-[30px] md:px-[64px]  flex justify-between items-center lg:items-start">
                 <div class="logo hidden sm:flex mb-5 lg:mb-0 ">
-                    <img src="@/assets/logo/icon.svg" alt="" class="mr-[8px]">
-                    <img src="@/assets/logo/text.svg" alt="" class="">
+                    <img id="hero-logo-icon" src="@/assets/logo/icon.svg" alt="" class="mr-[8px]">
+                    <img id="hero-logo-text" src="@/assets/logo/text.svg" alt="" class="">
                 </div>
                 <img src="@/assets/logo/full-min.svg" alt="" class="block sm:hidden">
                 <nav class="hidden sm:block max-w-[400px]">
                     <ul class="">
                         <div class="flex gap-x-[32px] mb-[12px]">
 
-                            <li class="  ">
+                            <li id="hero-nav-links" class="  ">
                                 <div class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[140px] lg:min-w-[185px] cursor-pointer"
                                     @click="scrollTo('section-2')">
                                     R17 Vision</div>
                             </li>
-                            <li class="  ">
+                            <li id="hero-nav-links" class="  ">
                                 <div class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[140px] lg:min-w-[185px] cursor-pointer"
                                     @click="scrollTo('approach')">
                                     Approach</div>
@@ -64,12 +64,12 @@ const currentYear = computed(() => {
                         </div>
                         <div class="flex gap-x-[32px] ">
 
-                            <li class="">
+                            <li id="hero-nav-links" class="">
                                 <div class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-t-rm-dark w-full min-w-[140px] lg:min-w-[185px] cursor-pointer"
                                     @click="scrollTo('portfolio')">
                                     Portfolio</div>
                             </li>
-                            <li class="">
+                            <li id="hero-nav-links" class="">
                                 <a href="#">
                                     <div
                                         class="pt-[10px] text-[20px] leading-[24px] tracking-[-0.01em] font-bold border-t-2 border-r-2 border-rm-dark w-full min-w-[140px] lg:min-w-[185px] flex items-center justify-between">
@@ -175,27 +175,29 @@ const currentYear = computed(() => {
             </header>
 
             <div
+            id="hero-main-text"
                 class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[125px] 3xs:text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[95px] 3xs:leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden max-w-[1520px] 2xl:mx-auto">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
-                <img src="@/assets/images/home/hero/cloud-left.svg" alt=""
+                <img id="hero-text-cloud" src="@/assets/images/home/hero/cloud-left.svg" alt=""
                     class="h-[69px] w-[412px] absolute right-[-180px] xs:right-[-100px] sm:right-0 bottom-[-20px] lg:bottom-[-27px]">
                 <img src="@/assets/images/home/hero/scroll.svg" alt=""
                     class="absolute right-[100px] bottom-[-115px] cursor-pointer hidden sm:block"
                     @click="scrollTo('section-2')">
             </div>
         </div>
-        <img src="@/assets/images/home/hero/plane-cloud-right.svg" alt=""
+        <img id="hero-cloud-illust" src="@/assets/images/home/hero/plane-cloud-right.svg" alt=""
             class="absolute left-[96px] 3xs:left-[165px] sm:left-[195px] bottom-[155px] 3xs:bottom-[205px] z-[3] ">
-        <img src="@/assets/images/home/hero/plane-right.svg" alt=""
+        <img id="hero-plane-right-illust" src="@/assets/images/home/hero/plane-right.svg" alt=""
             class="absolute left-[65px] 3xs:left-[100px] sm:left-[155px] bottom-[8px] 3xs:bottom-[38px] z-[3] ">
-        <img src="@/assets/images/home/hero/big-plane.svg" alt=""
+        <img id="hero-plane-big-illust" src="@/assets/images/home/hero/big-plane.svg" alt=""
             class="absolute left-[-30px] sm:left-0 bottom-[35px] z-[2] h-[175px] 3xs:h-[250px] w-[165px] 3xs:w-[240px] ">
-        <img src="@/assets/images/home/hero/plane-left.svg" alt=""
+        <img id="hero-plane-left-illust" src="@/assets/images/home/hero/plane-left.svg" alt=""
             class="absolute left-[-20px] sm:left-[1px] bottom-[120px] 3xs:bottom-[175px] z-[1] ">
-        <img src="@/assets/images/home/hero/plane-cloud-left.svg" alt=""
+        <img id="hero-cloud-illust" src="@/assets/images/home/hero/plane-cloud-left.svg" alt=""
             class="absolute left-[-20px] sm:left-[1px] bottom-[120px] z-[1] ">
         <div
+        id="hero-marquee"
             class="absolute bottom-0 left-0 right-0 text-xl xs:text-[24px] leading-[26px] sm:leading-[31px] tracing-[0.02em] font-bold uppercase bg-rm-light-2 flex z-10">
             <div class="py-[14px] px-[15px] sm:px-[24px] font-bold">NEWS</div>
             <div class="marquee w-full">
@@ -219,7 +221,13 @@ const currentYear = computed(() => {
                 </div>
             </div>
         </div>
-
+        <div id="hero-init-btm" class="fixed left-0 right-0 bottom-[40px] w-full flex items-center justify-center opacity-0">
+            <span class="text-[32px] leading-[42px] uppercase font-bold mr-[16px]">venture fund</span>
+            <span class="text-[32px] leading-[42px] uppercase font-bold mr-[16px]">.</span>
+            <span class="text-[32px] leading-[42px] uppercase font-bold mr-[16px]">advisory</span>
+            <span class="text-[32px] leading-[42px] uppercase font-bold mr-[16px]">.</span>
+            <span class="text-[32px] leading-[42px] uppercase font-bold">community</span>
+        </div>
     </section>
 </template>
 

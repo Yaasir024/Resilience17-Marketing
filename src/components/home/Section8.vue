@@ -23,7 +23,7 @@ import Footer from "@/components/home/Footer.vue"
                     </div>
                 </div>
                 <div
-                    class="card px-[20px] xs:px-[45px] sm:px-[64px] pt-[40px] sm:pt-[56px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green">
+                    class="card px-[20px] xs:px-[45px] sm:px-[64px] pt-[40px] sm:pt-[56px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green" v-if="false">
                     <h2 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka">
                         Resources</h2>
                     <div
@@ -38,10 +38,11 @@ import Footer from "@/components/home/Footer.vue"
 
                     </div>
                 </div>
+                <div class="h-[150px] w-full border-r border-rm-light"></div>
             </div>
             <div class="flex-full lg:flex-[50%]">
                 <div
-                    class="card px-[20px] xs:px-[45px] sm:px-[64px] pt-[40px] sm:pt-[200px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green">
+                    class="card px-[20px] xs:px-[45px] sm:px-[64px] pt-[40px] sm:pt-[200px] pb-[42px] sm:pb-[64px] border border-rm-light hover:bg-rm-green" v-if="false">
                     <h2 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka">See
                         open positions</h2>
                     <div

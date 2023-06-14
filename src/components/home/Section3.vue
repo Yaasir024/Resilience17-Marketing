@@ -2,7 +2,7 @@
     <section class="section bg-rm-dark">
         <div class="px-[20px] xs:px-[45px] sm:px-[64px] md:px-0 pt-[56px] pb-[100px] flex flex-col md:flex-row md:items-end justify-between">
             <h2 class="pl-0 md:pl-[64px] text-[96px] md:text-[104px] leading-[84px] md:leading-[92px] tracking-[0.01em] text-rm-light font-bold font-manuka">...at a glance</h2>
-            <h6 class="text-lg xs:text-[20px] leading-[29px] xs:leading-[22px] tracking-[0.01em] mt-5 md:mt-0 md:mb-[-4px] text-rm-light-2 md:flex-25% hidden xs:block">And, we’re just getting started.</h6>
+            <h6 class="text-lg xs:text-[20px] leading-[29px] xs:leading-[22px] tracking-[0.01em] mt-5 md:mt-0 md:mb-[-4px] text-rm-light-2 md:flex-50% xl:flex-25% hidden xs:block">And, we’re just getting started.</h6>
             
         </div>
         <div class="flex flex-wrap w-full">
