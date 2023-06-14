@@ -72,14 +72,16 @@ onMounted(() => {
                 </p>
                 <div
                     class="flex md:items-center justify-between flex-col-reverse md:flex-row border-t border-t-rm-dark pt-[12px] pb-[64px]">
-                    <h3 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.01em] 3xs:tracking-[0.02em] text-rm-dark font-medium font-manuka mt-[24px] md:mt-0">
+                    <h3
+                        class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.01em] 3xs:tracking-[0.02em] text-rm-dark font-medium font-manuka mt-[24px] md:mt-0">
                         Venture forward with
                         us</h3>
-                    <svg class="arrow h-[26px] 3xs:h-[32px] sm:h-[42px] w-[26px] 3xs:w-[32px] sm:w-[42px] ml-auto md:ml-0" viewBox="0 0 42 42"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
-                            stroke-width="0.6" />
+                    <svg class="arrow h-[26px] 3xs:h-[32px] sm:h-[42px] w-[26px] 3xs:w-[32px] sm:w-[42px] ml-auto md:ml-0"
+                        viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 12L20 16H45.18L12 49.18L14.82 52L48 18.82V44L52 40V12H24Z" fill="#000609"
+                            stroke="#000609" stroke-width="0.6" />
                     </svg>
+
 
                 </div>
 
@@ -87,6 +89,11 @@ onMounted(() => {
         </div>
     </section>
 </template>
+<!-- <svg class="arrow h-[26px] 3xs:h-[32px] sm:h-[42px] w-[26px] 3xs:w-[32px] sm:w-[42px] ml-auto md:ml-0" viewBox="0 0 42 42"
+    fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
+        stroke-width="0.6" />
+</svg> -->
 
 <style scoped>
 .last-card .arrow {
@@ -96,4 +103,5 @@ onMounted(() => {
 
 .last-card:hover .arrow {
     transform: scale(0.8);
-}</style>
+}
+</style>

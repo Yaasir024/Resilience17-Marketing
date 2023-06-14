@@ -109,6 +109,8 @@ const currentYear = computed(() => {
                                     @click="scroll('portfolio')">
                                     <a href="#" class="py-[16px] flex items-center justify-between">
                                         <span class="font-bold">Apply Now </span>
+                                        
+
                                         <svg class="mr-2" width="14" height="14" viewBox="0 0 16 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path

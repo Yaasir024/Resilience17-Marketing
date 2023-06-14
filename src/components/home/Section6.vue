@@ -73,12 +73,13 @@ const data = [
             v-for="item in data" :key="item.id">
             <a :href="item.href" target="_blank">
                 <div class="px-[20px] xs:px-[45px] sm:px-[64px] py-[40px] ">
-
-                    <svg class="arrow absolute top-[12px] right-[12px] xs:opacity-0" width="24" height="24" viewBox="0 0 42 42"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
-                            stroke-width="0.6" />
+                    <svg class="arrow absolute top-[12px] right-[12px] xs:opacity-0" width="24" height="24"
+                        viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 12L20 16H45.18L12 49.18L14.82 52L48 18.82V44L52 40V12H24Z" fill="#000609"
+                            stroke="#000609" stroke-width="0.6" />
                     </svg>
+
+
                     <h4 class="text-[18px] leading-[23px] tracking-[0.04em] font-bold uppercase">{{ item.tag }}</h4>
                     <h2 class="mt-[16px] text-[64px] leading-[65px] tracking-[0.02em] font-medium font-manuka capitalize">{{
                         item.name }}</h2>
@@ -90,13 +91,18 @@ const data = [
     </section>
 </template>
 
+<!-- <svg class="arrow absolute top-[12px] right-[12px] xs:opacity-0" width="24" height="24" viewBox="0 0 42 42"
+    fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9 1V5H34.18L1 38.18L3.82 41L37 7.82V33H41V1H9Z" fill="#000609" stroke="#000609"
+        stroke-width="0.6" />
+</svg> -->
 <style scoped>
 .arrow {
     transform-origin: top right;
     transition: all .3s ease;
 }
+
 .card:hover .arrow {
     opacity: 1;
     transform: scale(1.2);
-}
-</style>
+}</style>
