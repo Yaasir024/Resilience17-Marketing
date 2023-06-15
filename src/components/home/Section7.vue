@@ -1,6 +1,6 @@
 <template>
     <section class="section flex flex-wrap">
-        <div class="flex-full lg:flex-50% xs:pt-[56px] flex flex-col-reverse xs:flex-col justify-between bg-rm-dark">
+        <div class="flex-full lg:flex-50% xs:pt-[56px] flex flex-col-reverse xs:flex-col justify-between bg-rm-dark cursor-light">
             <div class="px-[20px] xs:px-[45px] sm::px-[64px] mb-[24px] xs:mb-28 lg:mb-0 ">
                 <h1
                     class="text-[96px] 2xl:text-[104px] leading-[84px] md:leading-[92px] tracking-[0.01em] font-extrabold max-w-[350px] font-manuka text-rm-green xs:text-rm-light">

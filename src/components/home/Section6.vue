@@ -69,7 +69,7 @@ const data = [
 
 <template>
     <section id="portfolio" class="section">
-        <div class="bg-rm-dark ">
+        <div class="bg-rm-dark cursor-light">
             <img src="@/assets/images/home/pattern-sec6-mobile.svg" alt="" class="mb-[64px] w-full block xs:hidden">
             <div class="flex flex-col lg:flex-row lg:items-end justify-between py-[56px] px-[20px] xs:px-[45px] sm:px-[64px] lg:px-0 md:px-[64px]">
                 <h1
@@ -86,7 +86,7 @@ const data = [
 
         </div>
         <div class="flex flex-wrap">
-            <div class="card flex-full md:flex-50% lg:flex-33.33% border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
+            <div class="card cursor-dark flex-full md:flex-50% lg:flex-33.33% border border-rm-light-2 bg-rm-light hover:bg-rm-green relative"
                 v-for="item in data" :key="item.id">
                 <a :href="item.href" target="_blank">
                     <div class="px-[20px] xs:px-[45px] sm:px-[64px] py-[40px] ">

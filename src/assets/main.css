@@ -9,6 +9,16 @@ body {
   cursor: url('./cursor.svg'), auto;
   height: 100%;
 }
+.cursor-light {
+  /* Set cursor to default arrow for screens larger than or equal to 640px */
+  cursor: url('./cursor-light.svg'), auto;
+  /* height: 100%; */
+}
+.cursor-dark {
+  /* Set cursor to default arrow for screens larger than or equal to 640px */
+  cursor: url('./cursor.svg'), auto;
+  height: 100%;
+}
 html {
   height: 100%;
 }

@@ -25,7 +25,7 @@ let mm = gsap.matchMedia();
             class="left-approach w-full lg:w-[50%]  pt-[64px] flex flex-col justify-between md:h-screen">
             <div class="px-[20px] xs:px-[45px] sm:px-[64px] mb-[64px] sm:mb-6 md:mb-0">
                 <h1
-                    class="text-[96px] md:text-[104px] leading-[84px] sm:leading-[92px] tracking-[0.01em] font-extrabold font-manuka">
+                    class="cursor-light text-[96px] md:text-[104px] leading-[84px] sm:leading-[92px] tracking-[0.01em] font-extrabold font-manuka">
                     The R17 Approach
                 </h1>
                 <h1 class="text-[28px] leading-[36px] tracking-[0.01em] font-medium mt-[24px] max-w-[260px] 3xs:max-w-full">
@@ -34,7 +34,7 @@ let mm = gsap.matchMedia();
             </div>
             <img src="@/assets/images/home/section-4/pattern.svg" alt="" class="w-full hidden sm:block">
         </div>
-        <div id="right-approach" class="w-full lg:w-[50%]">
+        <div id="right-approach" class="cursor-light w-full lg:w-[50%]">
             <div
                 class="pt-[40px] sm:pt-[70px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[80px] sm:pb-10 bg-rm-dark md:min-h-[475px] border-b border-[#545440]">
                 <img src="@/assets/images/home/section-4/funding.svg" alt="" class="h-[96px] w-[96px]">
@@ -66,7 +66,7 @@ let mm = gsap.matchMedia();
 
             </div>
             <div
-                class="last-card pt-[48px] sm:pt-[56px] px-[20px] xs:px-[45px] sm:px-[64px] flex flex-col justify-between md:min-h-[470px] xs:hover:bg-rm-yellow">
+                class="last-card cursor-dark pt-[48px] sm:pt-[56px] px-[20px] xs:px-[45px] sm:px-[64px] flex flex-col justify-between md:min-h-[470px] xs:hover:bg-rm-yellow">
                 <p class="text-[20px] leading-[32px] font-medium mb-[80px] md:mb-0">
                     Ready to go from idea to unicorn and beyond?
                 </p>

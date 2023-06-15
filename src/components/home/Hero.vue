@@ -176,7 +176,7 @@ const currentYear = computed(() => {
 
             <div
             id="hero-main-text"
-                class="mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[125px] 3xs:text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[95px] 3xs:leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden max-w-[1520px] 2xl:mx-auto">
+                class="cursor-light mt-[55px] px-[34px] md:px-[65px] lg:px-[80px] 3xl:px-[220px] text-[125px] 3xs:text-[144px] sm:text-[130px] lg:text-[150px] xl:text-[195px] 2xl:text-[220px] leading-[95px] 3xs:leading-[121px] xl:leading-[150px] 2xl:leading-[175px] tracking-[0.01em] text-center font-[900] font-manuka  relative overflow-hidden max-w-[1520px] 2xl:mx-auto">
                 Backing Africa<span class="font-dm-sans">’</span>s
                 Venture Forward
                 <img id="hero-text-cloud" src="@/assets/images/home/hero/cloud-left.svg" alt=""

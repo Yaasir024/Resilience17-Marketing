@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-rm-dark lg:flex">
+    <section class="bg-rm-dark lg:flex cursor-light">
         <img src="@/assets/images/home/newsletter-pattern.svg" alt="" class="hidden lg:block">
         <div class="pt-[48px] px-[20px] xs:px-[45px] sm:px-[64px] pb-[42px] w-full">
             <h2 class="text-[56px] 3xs:text-[64px] leading-[65px] tracking-[0.02em] max-w-[225px] 3xs:max-w-[250px] xs:max-w-full font-medium font-manuka text-rm-light-2 ">Subscribe to
