@@ -66,7 +66,7 @@ export const useAnime = defineStore("anime", () => {
 
   onMounted(() => {
     mm.add("(min-width: 1024px)", () => {
-      // heroAnimate();
+      heroAnimate();
     });
 
     mm.add("(min-width: 1024px)", () => {
@@ -101,7 +101,7 @@ export const useAnime = defineStore("anime", () => {
   // () => `+=${sectionHeight}`
 
   onMounted(() => {
-    // setupScrollAnimation();
+    setupScrollAnimation();
   });
 
   onMounted(() => {
