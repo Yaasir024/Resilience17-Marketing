@@ -14,7 +14,7 @@ const useAnimation = useAnime()
 </script>
 
 <template>
-  <main class="">
+  <main class="main">
     <Hero />
     <Section2 />
     <Section3 />
@@ -27,3 +27,12 @@ const useAnimation = useAnime()
     <Section8 />
   </main>
 </template>
+
+
+<style scoped>
+@media only screen and (max-width: 1024px) {
+  .main {
+    overflow-x: hidden;
+  }
+}
+</style>

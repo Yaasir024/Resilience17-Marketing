@@ -202,22 +202,32 @@ const currentYear = computed(() => {
             <div class="py-[14px] px-[15px] sm:px-[24px] font-bold">NEWS</div>
             <div class="marquee w-full">
                 <div class="marquee__group">
-                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+                    <span class="font-bold">Lagoon Hospital Announces Flutterwave CEO, Agboola as Director</span>
                     <span class="mx-[12px]"><svg width="18" height="12" viewBox="0 0 18 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 6L0 0H12L18 6L12 12H0L6 6Z" fill="#000609" />
                         </svg>
                     </span>
-                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+                    <span class="font-bold">Olugbenga GB Agboola Invests in Lagoon Hospital, Aims to Provide Specialist Medical Care</span>
+                    <span class="mx-[12px]"><svg width="18" height="12" viewBox="0 0 18 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 6L0 0H12L18 6L12 12H0L6 6Z" fill="#000609" />
+                        </svg>
+                    </span>
                 </div>
                 <div aria-hidden="true" class="marquee__group">
-                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+                    <span class="font-bold">Lagoon Hospital Announces Flutterwave CEO, Agboola as Director</span>
                     <span class="mx-[12px]"><svg width="18" height="12" viewBox="0 0 18 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 6L0 0H12L18 6L12 12H0L6 6Z" fill="#000609" />
                         </svg>
                     </span>
-                    <span class="font-bold">r17 leads $30m investment in pade hcm, with sequoia and y-combinator</span>
+                    <span class="font-bold">Olugbenga GB Agboola Invests in Lagoon Hospital, Aims to Provide Specialist Medical Care</span>
+                    <span class="mx-[12px]"><svg width="18" height="12" viewBox="0 0 18 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 6L0 0H12L18 6L12 12H0L6 6Z" fill="#000609" />
+                        </svg>
+                    </span>
                 </div>
             </div>
         </div>

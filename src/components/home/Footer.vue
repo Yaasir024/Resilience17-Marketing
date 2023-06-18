@@ -10,7 +10,7 @@ const currentYear = computed(() => {
 </script>
 
 <template>
-    <footer class="bg-rm-yellow pt-[64px] xs:pt-[40px] px-[20px] xs:px-[45px] sm:px-[64px]">
+    <footer class="bg-rm-yellow pt-[64px] xs:pt-[40px] px-[20px] xs:px-[45px] sm:px-[64px] h-full">
         <div class="w-full xl:flex justify-between items-start ">
             <div class="xl:w-[360px] xl:shrink-0 mb-12 xl:mb-0 hidden xs:block">
 

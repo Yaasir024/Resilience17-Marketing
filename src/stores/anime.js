@@ -111,6 +111,9 @@ export const useAnime = defineStore("anime", () => {
 
   onMounted(() => {
     setupScrollAnimation();
+    mm.add("(min-width: 1024px)", () => {
+
+    })
   });
 
   onMounted(() => {
