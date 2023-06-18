@@ -59,7 +59,7 @@ const news = [
 
                         </div>
                         <div class="mt-[16px]">
-                            <span class="text-[24px] leading-[35px] font-medium capitalize">
+                            <span class="text-[22px] 3xs:text-[24px] leading-[35px] font-medium capitalize">
                                 {{ nw.headline }}
                             </span>
                         </div>
