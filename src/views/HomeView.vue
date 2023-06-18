@@ -19,6 +19,8 @@ const useAnimation = useAnime()
     <Section2 />
     <Section3 />
     <Section4 />
+    <!-- <div class="section">
+    </div> -->
     <Section5 />
     <Section6 />
     <Section7 />

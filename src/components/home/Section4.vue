@@ -20,9 +20,9 @@ let mm = gsap.matchMedia();
 </script>
 
 <template>
-    <section id="approach" class="approach  lg:flex bg-rm-light">
+    <section id="approach" class="approach section  lg:flex bg-rm-light">
         <div id="left-approach"
-            class="left-approach w-full lg:w-[50%]  pt-[64px] flex flex-col justify-between md:h-screen">
+            class="left-approach sticky top-0 bg-rm-light w-full lg:w-[50%]  pt-[64px] flex flex-col justify-between md:h-screen">
             <div class="px-[20px] xs:px-[45px] sm:px-[64px] mb-[64px] sm:mb-6 md:mb-0">
                 <h1
                     class="cursor-light text-[96px] md:text-[104px] leading-[84px] sm:leading-[92px] tracking-[0.01em] font-extrabold font-manuka">

@@ -53,11 +53,11 @@ export const useAnime = defineStore("anime", () => {
         "body",
         { overflow: "auto", autoAlpha: 1, onComplete: stopAnimation },
         "<"
-      ).then(() => {
-
+      )
+      .then(() => {
         console.log("done");
         tl = null; // Stop the animation
-      })
+      });
   };
   const stopAnimation = () => {
     if (tl) {
@@ -66,17 +66,26 @@ export const useAnime = defineStore("anime", () => {
 
   onMounted(() => {
     mm.add("(min-width: 1024px)", () => {
-      heroAnimate();
+      // heroAnimate();
     });
 
     mm.add("(min-width: 1024px)", () => {
       console.log("desktop");
-      ScrollTrigger.create({
-        trigger: ".approach",
-        start: "top top",
-        end: "bottom bottom",
-        pin: ".left-approach",
-      });
+      // ScrollTrigger.create({
+      //   trigger: ".approach",
+      //   start: "top top",
+      //   end: "bottom bottom",
+      //   pin: "#left-approach",
+      // });
+      // gsap.to(".approach", {
+      //   scrollTrigger: {
+      //     trigger: ".approach",
+      //     start: "top top",
+      //     end: "bottom bottom",
+      //     pin: "#left-approach",
+      //     markers: true
+      //   }
+      // })
     });
   });
 
