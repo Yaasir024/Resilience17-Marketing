@@ -21,16 +21,7 @@ const currentYear = computed(() => {
                     <div class="flex-full md:flex-50% md:pr-[16px] mb-[62px] xs:mb-8 md:mb-0">
                         <div class="w-full pt-[12px] border-t border-rm-dark">
                             <h3 class="text-lg leading-[23px] tracking-[0.04em] font-bold uppercase">inquiries</h3>
-                            <div class="mt-[8px]">
-                                <p class="text-[20px] leading-[29px] tracking-[0.01em]">
-                                    +234 (807) 763 9342
-                                </p>
-                            </div>
-                            <div class="mt-[12px]">
-                                <p class="text-[20px] leading-[29px] tracking-[0.01em]">
-                                    +44 (020) 7946 0999
-                                </p>
-                            </div>
+                            
                             <div class="mt-[12px]">
                                 <a href="mailto:forward@resilience17.africa"
                                     class="text-[20px] leading-[29px] tracking-[0.01em] underline">
