@@ -66,6 +66,7 @@ const currentYear = computed(() => {
         </div>
         <div class="mt-[16px] xs:mt-[80px] py-[12px] border-t border-rm-dark flex items-center justify-between">
             <span class="text-[14px] leading-[17px] tracking-[0.02em]">{{ currentYear }}, Resilience17</span>
+            <span class="text-[14px] leading-[17px] tracking-[0.02em]">Design, <a href="https://www.linkedin.com/in/usman-amusat/" class="underline">Amusat Usman</a></span>
         </div>
     </footer>
 </template>
